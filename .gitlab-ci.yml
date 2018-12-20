@@ -26,6 +26,6 @@ send:
   script:
     - composer install --no-dev --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
     - cp .env.example .env
-    - php arty discord:test
+    - php arty discord:test --body='test@GitLab CI'
   only:
     - schedules

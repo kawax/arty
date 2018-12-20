@@ -16,7 +16,7 @@ class TestCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'discord:test';
+    protected $signature = 'discord:test {--body=test}';
 
     /**
      * The description of the command.
@@ -32,10 +32,12 @@ class TestCommand extends Command
      */
     public function handle()
     {
-        Notification::route('discord', config('services.discord.channel'))
-                    ->notify(new TestNotification('test'));
+        $body = $this->option('body');
 
-        Storage::put('test.txt', 'test');
+        Notification::route('discord', config('services.discord.channel'))
+                    ->notify(new TestNotification($body));
+
+        //Storage::put('test.txt', $body);
     }
 
     /**
