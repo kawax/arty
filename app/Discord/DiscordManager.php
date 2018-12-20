@@ -13,7 +13,7 @@ class DiscordManager
     /**
      * @var string
      */
-    protected $prefix = '/';
+    protected $prefix;
 
     /**
      * @var array
@@ -27,10 +27,15 @@ class DiscordManager
 
     /**
      * DiscordManager constructor.
+     *
+     * @param array $config
+     *
      * @throws \ReflectionException
      */
-    public function __construct()
+    public function __construct($config)
     {
+        $this->prefix = data_get($config, 'prefix', '/');
+
         $this->load(__DIR__ . '/Commands', 'commands');
         $this->load(__DIR__ . '/Directs', 'directs');
     }

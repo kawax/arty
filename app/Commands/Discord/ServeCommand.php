@@ -4,8 +4,7 @@ namespace App\Commands\Discord;
 
 use LaravelZero\Framework\Commands\Command;
 
-use React\EventLoop\Factory;
-use CharlotteDunois\Yasmin\Client;
+use CharlotteDunois\Yasmin\Client as Yasmin;
 use CharlotteDunois\Yasmin\Models\Message;
 
 use App\Discord\DiscordManager;
@@ -40,19 +39,13 @@ class ServeCommand extends Command
      * Execute the console command.
      *
      * @param DiscordManager $manager
+     * @param Yasmin         $client
      *
      * @return mixed
      * @throws \Exception
      */
-    public function handle(DiscordManager $manager)
+    public function handle(DiscordManager $manager, Yasmin $client)
     {
-        $loop = Factory::create();
-        $client = new Client([
-            'ws.disabledEvents' => [
-                'TYPING_START',
-            ],
-        ], $loop);
-
         $client->on('error', function ($error) {
             $this->error($error);
         });
@@ -96,6 +89,6 @@ class ServeCommand extends Command
         });
 
         $client->login(config('services.discord.token'));
-        $loop->run();
+        $client->getLoop()->run();
     }
 }

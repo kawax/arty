@@ -15,8 +15,14 @@ return [
     */
 
     'discord' => [
+        'prefix'  => '/',
         'token'   => env('DISCORD_BOT_TOKEN'),
         'channel' => env('DISCORD_CHANNEL'),
         'bot'     => env('DISCORD_BOT'),
+        'yasmin'  => [
+            'ws.disabledEvents' => [
+                'TYPING_START',
+            ],
+        ],
     ],
 ];
