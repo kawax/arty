@@ -1,0 +1,31 @@
+image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine
+
+before_script:
+  - php -v
+
+cache:
+  paths:
+    - vendor
+    - storage
+
+stages:
+  - test
+  - command
+
+test:
+  stage: test
+  script:
+    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
+    - cp .env.example .env
+    - vendor/bin/phpunit
+  except:
+    - schedules
+
+send:
+  stage: command
+  script:
+    - composer install --no-dev --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
+    - cp .env.example .env
+    - php arty discord:test
+  only:
+    - schedules

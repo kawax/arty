@@ -1,0 +1,7 @@
+/vendor
+/.idea
+/.vscode
+/.vagrant
+.env
+/storage
+/builds
