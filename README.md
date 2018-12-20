@@ -8,7 +8,7 @@
 ## Create project
 
 ```
-composer create-project --prefer-dist revolution/arty discord-bot && cd $_
+composer create-project --prefer-dist revolution/arty:dev-master discord-bot && cd $_
 ```
 
 `php arty`でコマンドリスト表示。
