@@ -2,7 +2,7 @@
 
 namespace App\Commands\Discord;
 
-use Illuminate\Console\Command;
+use LaravelZero\Framework\Commands\Command;
 
 use React\EventLoop\Factory;
 use CharlotteDunois\Yasmin\Client;
