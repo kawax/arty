@@ -18,6 +18,8 @@ composer create-project --prefer-dist revolution/arty:dev-master discord-bot && 
 - Laravel Notification
   - https://github.com/laravel-notification-channels/discord
 
+通知先を増やせばDiscord以外にも簡単に対応できる。
+
 ## Discord test
 `.env`を設定後`php arty discord:test`で指定のチャンネルに投稿されれば成功。
 
