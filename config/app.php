@@ -59,7 +59,8 @@ return [
 
         NotificationChannels\Discord\DiscordServiceProvider::class,
 
+        Revolution\DiscordManager\Providers\DiscordManagerServiceProvider::class,
+
         App\Providers\AppServiceProvider::class,
-        App\Providers\DiscordServiceProvider::class,
     ],
 ];

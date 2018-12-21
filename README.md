@@ -41,7 +41,12 @@ php arty make:notification TestNotification
 ```
 
 ## Discordコマンド作成
-makeコマンドは用意してないので`app/Discord`以下を見てファイルをコピーして対応。
+作成場所は`app/Discord`固定。
+
+```
+php arty make:discord:command NewChannelCommand
+php arty make:discord:direct NewDmCommand
+```
 
 ## artyファイル名の変更
 ```

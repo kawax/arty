@@ -15,11 +15,16 @@ return [
     */
 
     'discord' => [
-        'prefix'  => '/',
-        'token'   => env('DISCORD_BOT_TOKEN'),
-        'channel' => env('DISCORD_CHANNEL'),
-        'bot'     => env('DISCORD_BOT'),
-        'yasmin'  => [
+        'prefix'    => '/',
+        'not_found' => 'Command Not Found!',
+        'path'      => [
+            'commands' => app_path('Discord/Commands'),
+            'directs'  => app_path('Discord/Directs'),
+        ],
+        'token'     => env('DISCORD_BOT_TOKEN'),
+        'channel'   => env('DISCORD_CHANNEL'),
+        'bot'       => env('DISCORD_BOT'),
+        'yasmin'    => [
             'ws.disabledEvents' => [
                 'TYPING_START',
             ],

@@ -4,10 +4,10 @@ namespace App\Commands\Discord;
 
 use LaravelZero\Framework\Commands\Command;
 
+use Revolution\DiscordManager\Facades\DiscordManager;
+
 use CharlotteDunois\Yasmin\Client as Yasmin;
 use CharlotteDunois\Yasmin\Models\Message;
-
-use App\Discord\DiscordManager;
 
 class ServeCommand extends Command
 {
@@ -38,13 +38,11 @@ class ServeCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param DiscordManager $manager
-     * @param Yasmin         $client
+     * @param Yasmin $client
      *
      * @return mixed
-     * @throws \Exception
      */
-    public function handle(DiscordManager $manager, Yasmin $client)
+    public function handle(Yasmin $client)
     {
         $client->on('error', function ($error) {
             $this->error($error);
@@ -54,7 +52,7 @@ class ServeCommand extends Command
             $this->info('Logged in as ' . $client->user->tag . ' created on ' . $client->user->createdAt->format('d.m.Y H:i:s'));
         });
 
-        $client->on('message', function (Message $message) use ($manager) {
+        $client->on('message', function (Message $message) {
             $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel->type === 'text' ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . \count($message->embeds) . ' embed(s)');
 
             if ($message->author->bot) {
@@ -64,7 +62,7 @@ class ServeCommand extends Command
             try {
                 if ($message->channel->type === 'text') {
                     if ($message->mentions->members->has(config('services.discord.bot'))) {
-                        $reply = $manager->command($message);
+                        $reply = DiscordManager::command($message);
 
                         if (filled($reply)) {
                             $message->reply($reply)->done(null, function ($error) {
@@ -75,7 +73,7 @@ class ServeCommand extends Command
                 }
 
                 if ($message->channel->type === 'dm') {
-                    $reply = $manager->direct($message);
+                    $reply = DiscordManager::direct($message);
 
                     if (filled($reply)) {
                         $message->reply($reply)->done(null, function ($error) {
