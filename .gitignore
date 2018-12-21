@@ -5,3 +5,4 @@
 .env
 /storage
 /builds
+composer.lock
