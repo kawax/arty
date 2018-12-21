@@ -53,7 +53,7 @@ class ServeCommand extends Command
         });
 
         $client->on('message', function (Message $message) {
-            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel->type === 'text' ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . \count($message->embeds) . ' embed(s)');
+            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel->type === 'text' ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
 
             if ($message->author->bot) {
                 return;
@@ -61,25 +61,11 @@ class ServeCommand extends Command
 
             try {
                 if ($message->channel->type === 'text') {
-                    if ($message->mentions->members->has(config('services.discord.bot'))) {
-                        $reply = DiscordManager::command($message);
-
-                        if (filled($reply)) {
-                            $message->reply($reply)->done(null, function ($error) {
-                                $this->error($error);
-                            });
-                        }
-                    }
+                    $this->channel($message);
                 }
 
                 if ($message->channel->type === 'dm') {
-                    $reply = DiscordManager::direct($message);
-
-                    if (filled($reply)) {
-                        $message->reply($reply)->done(null, function ($error) {
-                            $this->error($error);
-                        });
-                    };
+                    $this->direct($message);
                 }
             } catch (\Exception $error) {
                 $this->error($error->getMessage());
@@ -88,5 +74,41 @@ class ServeCommand extends Command
 
         $client->login(config('services.discord.token'));
         $client->getLoop()->run();
+    }
+
+    /**
+     * @param Message $message
+     */
+    protected function channel(Message $message)
+    {
+        if (!$message->mentions->members->has(config('services.discord.bot'))) {
+            return;
+        }
+
+        $reply = DiscordManager::command($message);
+
+        if (blank($reply)) {
+            return;
+        }
+
+        $message->reply($reply)->done(null, function ($error) {
+            $this->error($error);
+        });
+    }
+
+    /**
+     * @param Message $message
+     */
+    protected function direct(Message $message)
+    {
+        $reply = DiscordManager::direct($message);
+
+        if (blank($reply)) {
+            return;
+        }
+
+        $message->reply($reply)->done(null, function ($error) {
+            $this->error($error);
+        });
     }
 }
