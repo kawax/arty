@@ -21,10 +21,10 @@ test:
   except:
     - schedules
 
-send:
+command:
   stage: command
   script:
-    - composer install --no-dev --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
+    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
     - cp .env.example .env
     - php arty discord:test --body='test@GitLab CI'
   only:
