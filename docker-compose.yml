@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  arty:
+    image: chilio/laravel-dusk-ci:stable
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: php arty

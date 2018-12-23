@@ -58,3 +58,24 @@ php arty app:rename artisan
 ```
 php artisan
 ```
+
+## Dockerで使う
+
+```
+docker-compose run arty {command}
+```
+
+```
+docker-compose run --rm arty discord:test
+```
+
+```
+docker-compose run --entrypoint '' --rm arty composer install
+```
+
+```
+docker-compose run --entrypoint '' --rm arty vendor/bin/phpunit
+```
+
+最初にcomposer create-projectで作ってるならphpもcomposerも動くはずだけど。
+CIで必要になるかもしれない。
