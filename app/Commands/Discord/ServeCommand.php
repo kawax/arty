@@ -6,7 +6,7 @@ use LaravelZero\Framework\Commands\Command;
 
 use Revolution\DiscordManager\Facades\DiscordManager;
 
-use CharlotteDunois\Yasmin\Client as Yasmin;
+use Revolution\DiscordManager\Facades\Yasmin;
 use CharlotteDunois\Yasmin\Models\Message;
 
 class ServeCommand extends Command
@@ -38,21 +38,19 @@ class ServeCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param Yasmin $client
-     *
      * @return mixed
      */
-    public function handle(Yasmin $client)
+    public function handle()
     {
-        $client->on('error', function ($error) {
+        Yasmin::on('error', function ($error) {
             $this->error($error);
         });
 
-        $client->on('ready', function () use ($client) {
-            $this->info('Logged in as ' . $client->user->tag . ' created on ' . $client->user->createdAt->format('d.m.Y H:i:s'));
+        Yasmin::on('ready', function () {
+            $this->info('Logged in as ' . Yasmin::user()->tag . ' created on ' . Yasmin::user()->createdAt->format('d.m.Y H:i:s'));
         });
 
-        $client->on('message', function (Message $message) {
+        Yasmin::on('message', function (Message $message) {
             $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel->type === 'text' ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
 
             if ($message->author->bot) {
@@ -72,8 +70,8 @@ class ServeCommand extends Command
             }
         });
 
-        $client->login(config('services.discord.token'));
-        $client->getLoop()->run();
+        Yasmin::login(config('services.discord.token'));
+        Yasmin::getLoop()->run();
     }
 
     /**
