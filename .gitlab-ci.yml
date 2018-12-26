@@ -2,6 +2,8 @@ image: chilio/laravel-dusk-ci:stable
 
 before_script:
   - php -v
+  - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts --no-suggest
+  - cp .env.example .env
 
 cache:
   paths:
@@ -15,8 +17,6 @@ stages:
 test:
   stage: test
   script:
-    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
-    - cp .env.example .env
     - vendor/bin/phpunit
   except:
     - schedules
@@ -24,8 +24,6 @@ test:
 command:
   stage: command
   script:
-    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
-    - cp .env.example .env
     - php arty discord:test --body='test@GitLab CI'
   only:
     - schedules
