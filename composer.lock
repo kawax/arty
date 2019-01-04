@@ -1978,16 +1978,16 @@
         },
         {
             "name": "laravel-zero/framework",
-            "version": "v5.7.17",
+            "version": "v5.7.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/framework.git",
-                "reference": "ad60b52ac050085d2fee1ecd4b543905dae9ff49"
+                "reference": "2992105af8675bccb85b28bd5724c584c9a80fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/framework/zipball/ad60b52ac050085d2fee1ecd4b543905dae9ff49",
-                "reference": "ad60b52ac050085d2fee1ecd4b543905dae9ff49",
+                "url": "https://api.github.com/repos/laravel-zero/framework/zipball/2992105af8675bccb85b28bd5724c584c9a80fbb",
+                "reference": "2992105af8675bccb85b28bd5724c584c9a80fbb",
                 "shasum": ""
             },
             "require": {
@@ -2050,7 +2050,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-27T10:13:46+00:00"
+            "time": "2018-12-30T19:47:08+00:00"
         },
         {
             "name": "laravel/nexmo-notification-channel",
@@ -3532,16 +3532,16 @@
         },
         {
             "name": "ratchet/pawl",
-            "version": "v0.3.2",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Pawl.git",
-                "reference": "85ca3b4a85254cf2ac4309ef42d427820770ae31"
+                "reference": "0aaacb8d3f6bcc02138bb8385130f757ecce5649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Pawl/zipball/85ca3b4a85254cf2ac4309ef42d427820770ae31",
-                "reference": "85ca3b4a85254cf2ac4309ef42d427820770ae31",
+                "url": "https://api.github.com/repos/ratchetphp/Pawl/zipball/0aaacb8d3f6bcc02138bb8385130f757ecce5649",
+                "reference": "0aaacb8d3f6bcc02138bb8385130f757ecce5649",
                 "shasum": ""
             },
             "require": {
@@ -3577,7 +3577,7 @@
                 "websocket",
                 "websocket client"
             ],
-            "time": "2018-05-22T21:45:08+00:00"
+            "time": "2019-01-01T19:05:59+00:00"
         },
         {
             "name": "ratchet/rfc6455",
@@ -5121,16 +5121,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
+                "reference": "cfd5dc225767ca154853752abc93aeec040fcf36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
-                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/cfd5dc225767ca154853752abc93aeec040fcf36",
+                "reference": "cfd5dc225767ca154853752abc93aeec040fcf36",
                 "shasum": ""
             },
             "require": {
@@ -5167,7 +5167,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2018-07-29T20:33:41+00:00"
+            "time": "2018-10-30T17:29:25+00:00"
         },
         {
             "name": "wyrihaximus/cpu-core-detector",
