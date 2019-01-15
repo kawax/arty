@@ -4,17 +4,16 @@ namespace App\Discord\Commands;
 
 use CharlotteDunois\Yasmin\Models\Message;
 
-use Symfony\Component\Console\Input\ArgvInput;
-use Symfony\Component\Console\Input\InputDefinition;
-use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputOption;
+use Revolution\DiscordManager\Traits\Input;
 
 class ArgvCommand
 {
+    use Input;
+
     /**
      * @var string
      */
-    public $command = 'argv';
+    public $command = 'argv {test} {--text=}';
 
     /**
      * @param Message $message
@@ -23,15 +22,9 @@ class ArgvCommand
      */
     public function __invoke(Message $message)
     {
-        $definition = new InputDefinition([
-            new InputArgument('test', InputArgument::OPTIONAL),
-            new InputOption('text', 't', InputArgument::OPTIONAL),
-        ]);
+        $argv = explode(' ', str_after($message->content, config('services.discord.prefix')));
 
-        $argv = collect(explode(' ', $message->content));
-        $argv->shift();
-
-        $input = new ArgvInput($argv->toArray(), $definition);
+        $input = $this->input($argv);
 
         return sprintf(
             'argv! argument:**%s** option:**%s**',

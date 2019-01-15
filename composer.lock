@@ -4152,20 +4152,21 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.0.2",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "b083d61d60e961f6949d3b5dd94d351f039b1404"
+                "reference": "03ec07757e0851d9a07c5c95d9fc006597757bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/b083d61d60e961f6949d3b5dd94d351f039b1404",
-                "reference": "b083d61d60e961f6949d3b5dd94d351f039b1404",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/03ec07757e0851d9a07c5c95d9fc006597757bf5",
+                "reference": "03ec07757e0851d9a07c5c95d9fc006597757bf5",
                 "shasum": ""
             },
             "require": {
                 "charlottedunois/yasmin": "^0.5.1",
+                "illuminate/console": "^5.7",
                 "illuminate/support": "^5.7",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": ">=7.1.3",
@@ -4207,7 +4208,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2018-12-23T02:55:27+00:00"
+            "time": "2019-01-15T13:23:48+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6266,16 +6267,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.1",
+            "version": "7.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c23d78776ad415d5506e0679723cb461d71f488f"
+                "reference": "7c89093bd00f7d5ddf0ab81dee04f801416b4944"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c23d78776ad415d5506e0679723cb461d71f488f",
-                "reference": "c23d78776ad415d5506e0679723cb461d71f488f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7c89093bd00f7d5ddf0ab81dee04f801416b4944",
+                "reference": "7c89093bd00f7d5ddf0ab81dee04f801416b4944",
                 "shasum": ""
             },
             "require": {
@@ -6346,7 +6347,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-12-12T07:20:32+00:00"
+            "time": "2019-01-15T08:19:08+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
