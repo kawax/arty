@@ -28,9 +28,10 @@ class ArgvCommand
             new InputOption('text', 't', InputArgument::OPTIONAL),
         ]);
 
-        $argv = explode(' ', $message->content);
-        array_shift($argv);
-        $input = new ArgvInput($argv, $definition);
+        $argv = collect(explode(' ', $message->content));
+        $argv->shift();
+
+        $input = new ArgvInput($argv->toArray(), $definition);
 
         return sprintf(
             'argv! argument:**%s** option:**%s**',
