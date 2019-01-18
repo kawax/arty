@@ -1941,16 +1941,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v5.7.15",
+            "version": "v5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "ffaa847e3505f37e1b5121c16a8230d4611abf7e"
+                "reference": "8924b09005eb42d2cdde7c7be05b5a178ef5af96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/ffaa847e3505f37e1b5121c16a8230d4611abf7e",
-                "reference": "ffaa847e3505f37e1b5121c16a8230d4611abf7e",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/8924b09005eb42d2cdde7c7be05b5a178ef5af96",
+                "reference": "8924b09005eb42d2cdde7c7be05b5a178ef5af96",
                 "shasum": ""
             },
             "require": {
@@ -1974,7 +1974,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-04T21:38:39+00:00"
+            "time": "2019-01-17T15:13:44+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -4152,16 +4152,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "03ec07757e0851d9a07c5c95d9fc006597757bf5"
+                "reference": "a748a1e7aedc59c1f9d805295fabae91d019026a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/03ec07757e0851d9a07c5c95d9fc006597757bf5",
-                "reference": "03ec07757e0851d9a07c5c95d9fc006597757bf5",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/a748a1e7aedc59c1f9d805295fabae91d019026a",
+                "reference": "a748a1e7aedc59c1f9d805295fabae91d019026a",
                 "shasum": ""
             },
             "require": {
@@ -4208,7 +4208,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2019-01-15T13:23:48+00:00"
+            "time": "2019-01-18T01:55:51+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
