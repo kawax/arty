@@ -3683,16 +3683,16 @@
         },
         {
             "name": "ratchet/pawl",
-            "version": "v0.3.3",
+            "version": "v0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Pawl.git",
-                "reference": "0aaacb8d3f6bcc02138bb8385130f757ecce5649"
+                "reference": "3a7d5b78e0deaec82f42513a4a3193a8eb12feb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Pawl/zipball/0aaacb8d3f6bcc02138bb8385130f757ecce5649",
-                "reference": "0aaacb8d3f6bcc02138bb8385130f757ecce5649",
+                "url": "https://api.github.com/repos/ratchetphp/Pawl/zipball/3a7d5b78e0deaec82f42513a4a3193a8eb12feb1",
+                "reference": "3a7d5b78e0deaec82f42513a4a3193a8eb12feb1",
                 "shasum": ""
             },
             "require": {
@@ -3728,7 +3728,7 @@
                 "websocket",
                 "websocket client"
             ],
-            "time": "2019-01-01T19:05:59+00:00"
+            "time": "2019-01-14T14:09:36+00:00"
         },
         {
             "name": "ratchet/rfc6455",
