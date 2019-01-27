@@ -4305,16 +4305,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "a748a1e7aedc59c1f9d805295fabae91d019026a"
+                "reference": "2b000f16b31cc8f62a8bf5394b521766286ee0a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/a748a1e7aedc59c1f9d805295fabae91d019026a",
-                "reference": "a748a1e7aedc59c1f9d805295fabae91d019026a",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/2b000f16b31cc8f62a8bf5394b521766286ee0a8",
+                "reference": "2b000f16b31cc8f62a8bf5394b521766286ee0a8",
                 "shasum": ""
             },
             "require": {
@@ -4361,7 +4361,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2019-01-18T01:55:51+00:00"
+            "time": "2019-01-26T11:18:06+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
