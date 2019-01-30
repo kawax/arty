@@ -1032,7 +1032,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -1082,7 +1082,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1127,7 +1127,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -1176,7 +1176,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1220,7 +1220,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -1270,7 +1270,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1315,7 +1315,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1359,7 +1359,7 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -1418,7 +1418,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1463,7 +1463,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1515,7 +1515,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -1568,7 +1568,7 @@
         },
         {
             "name": "illuminate/notifications",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
@@ -1623,7 +1623,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1667,7 +1667,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -1725,7 +1725,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1784,7 +1784,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v5.7.22",
+            "version": "v5.7.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -5276,16 +5276,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "f3aae2877ecf916ee802b7a5b249d36658171df6"
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/f3aae2877ecf916ee802b7a5b249d36658171df6",
-                "reference": "f3aae2877ecf916ee802b7a5b249d36658171df6",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
                 "shasum": ""
             },
             "require": {
@@ -5323,7 +5323,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-01-28T20:57:27+00:00"
+            "time": "2019-01-29T11:11:52+00:00"
         },
         {
             "name": "wyrihaximus/cpu-core-detector",
