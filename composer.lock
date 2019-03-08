@@ -2028,32 +2028,33 @@
         },
         {
             "name": "laravel-notification-channels/discord",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-notification-channels/discord.git",
-                "reference": "0789ff2bb199c1f7341da324e0df294634c20310"
+                "reference": "397a25b295214fd7b20de5852773b0e4023d79f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-notification-channels/discord/zipball/0789ff2bb199c1f7341da324e0df294634c20310",
-                "reference": "0789ff2bb199c1f7341da324e0df294634c20310",
+                "url": "https://api.github.com/repos/laravel-notification-channels/discord/zipball/397a25b295214fd7b20de5852773b0e4023d79f6",
+                "reference": "397a25b295214fd7b20de5852773b0e4023d79f6",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "guzzlehttp/guzzle": "~6.0",
-                "illuminate/console": "5.6.*|5.7.*",
-                "illuminate/notifications": "5.6.*|5.7.*",
-                "illuminate/queue": "5.6.*|5.7.*",
-                "illuminate/support": "5.6.*|5.7.*",
+                "illuminate/console": "^5.6",
+                "illuminate/notifications": "^5.6",
+                "illuminate/queue": "^5.6",
+                "illuminate/support": "^5.6",
                 "php": ">=7.1.2",
                 "textalk/websocket": "1.0.*"
             },
             "require-dev": {
-                "laravel/framework": "5.6.*|5.7.*",
+                "laravel/framework": "^5.6",
                 "mockery/mockery": "^1.0",
-                "orchestra/database": "3.6.x-dev",
-                "orchestra/testbench": "3.6.*|3.7.*",
+                "orchestra/database": "3.8.x-dev",
+                "orchestra/testbench": "^3.6",
                 "phpunit/phpunit": "7.*"
             },
             "type": "library",
@@ -2089,7 +2090,7 @@
                 "laravel",
                 "notification"
             ],
-            "time": "2018-09-07T02:35:48+00:00"
+            "time": "2019-02-28T04:12:31+00:00"
         },
         {
             "name": "laravel-zero/foundation",
