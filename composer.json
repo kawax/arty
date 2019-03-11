@@ -14,12 +14,11 @@
     ],
     "require": {
         "php": "^7.1.3",
-        "illuminate/notifications": "5.7.*",
-        "illuminate/view": "5.7.*",
-        "laravel-zero/framework": "5.7.*",
+        "illuminate/notifications": "5.8.*",
+        "illuminate/view": "5.8.*",
+        "laravel-zero/framework": "5.8.*",
         "ramsey/uuid": "^3.8",
-        "revolution/discord-manager": "^1.0",
-        "vlucas/phpdotenv": "^2.5"
+        "revolution/discord-manager": "^1.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
