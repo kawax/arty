@@ -1,0 +1,19 @@
+sudo: false
+language: php
+
+php:
+  - 7.3
+
+before_script:
+  - travis_retry composer install --no-dev --no-interaction --prefer-dist --no-progress --no-suggest
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - vendor
+
+script:
+  - 'if [ "$TRAVIS_EVENT_TYPE" = "cron" ]; then php arty discord:test --body="test@Travis"; fi'
