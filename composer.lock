@@ -7,71 +7,20 @@
     "content-hash": "e1fcd45783894a14a17e78b00c840c57",
     "packages": [
         {
-            "name": "cakephp/core",
-            "version": "3.7.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cakephp/core.git",
-                "reference": "9a70f1beb7fcc259e1f7050d19c54adcf43032b1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/core/zipball/9a70f1beb7fcc259e1f7050d19c54adcf43032b1",
-                "reference": "9a70f1beb7fcc259e1f7050d19c54adcf43032b1",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/utility": "^3.6.0",
-                "php": ">=5.6.0"
-            },
-            "suggest": {
-                "cakephp/cache": "To use Configure::store() and restore().",
-                "cakephp/event": "To use PluginApplicationInterface or plugin applications."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cake\\Core\\": "."
-                },
-                "files": [
-                    "functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "CakePHP Community",
-                    "homepage": "https://github.com/cakephp/core/graphs/contributors"
-                }
-            ],
-            "description": "CakePHP Framework Core classes",
-            "homepage": "https://cakephp.org",
-            "keywords": [
-                "cakephp",
-                "core",
-                "framework"
-            ],
-            "time": "2019-02-09T07:54:49+00:00"
-        },
-        {
             "name": "cakephp/utility",
-            "version": "3.7.5",
+            "version": "3.5.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/utility.git",
-                "reference": "1a4d271d9a3ad6e0096eabf5778342c8b5f81978"
+                "reference": "469289c1b547ee5f6ff91f71e1b33b2cfe006767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/utility/zipball/1a4d271d9a3ad6e0096eabf5778342c8b5f81978",
-                "reference": "1a4d271d9a3ad6e0096eabf5778342c8b5f81978",
+                "url": "https://api.github.com/repos/cakephp/utility/zipball/469289c1b547ee5f6ff91f71e1b33b2cfe006767",
+                "reference": "469289c1b547ee5f6ff91f71e1b33b2cfe006767",
                 "shasum": ""
             },
             "require": {
-                "cakephp/core": "^3.6.0",
                 "php": ">=5.6.0"
             },
             "suggest": {
@@ -107,7 +56,7 @@
                 "string",
                 "utility"
             ],
-            "time": "2018-09-14T01:26:50+00:00"
+            "time": "2018-04-28T02:15:39+00:00"
         },
         {
             "name": "charlottedunois/eventemitter",
@@ -3575,16 +3524,16 @@
         },
         {
             "name": "react/promise-timer",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise-timer.git",
-                "reference": "a11206938ca2394dc7bb368f5da25cd4533fa603"
+                "reference": "35fb910604fd86b00023fc5cda477c8074ad0abc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/a11206938ca2394dc7bb368f5da25cd4533fa603",
-                "reference": "a11206938ca2394dc7bb368f5da25cd4533fa603",
+                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/35fb910604fd86b00023fc5cda477c8074ad0abc",
+                "reference": "35fb910604fd86b00023fc5cda477c8074ad0abc",
                 "shasum": ""
             },
             "require": {
@@ -3601,7 +3550,7 @@
                     "React\\Promise\\Timer\\": "src/"
                 },
                 "files": [
-                    "src/functions.php"
+                    "src/functions_include.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3624,7 +3573,7 @@
                 "timeout",
                 "timer"
             ],
-            "time": "2018-06-13T16:45:37+00:00"
+            "time": "2019-03-27T18:10:32+00:00"
         },
         {
             "name": "react/socket",
@@ -3771,16 +3720,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "2b000f16b31cc8f62a8bf5394b521766286ee0a8"
+                "reference": "5f7398a275e0d45aa166fa8f551a4f9b578c46da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/2b000f16b31cc8f62a8bf5394b521766286ee0a8",
-                "reference": "2b000f16b31cc8f62a8bf5394b521766286ee0a8",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/5f7398a275e0d45aa166fa8f551a4f9b578c46da",
+                "reference": "5f7398a275e0d45aa166fa8f551a4f9b578c46da",
                 "shasum": ""
             },
             "require": {
@@ -3790,6 +3739,9 @@
                 "laravel-notification-channels/discord": "^1.0",
                 "php": ">=7.1.3",
                 "restcord/restcord": "^0.3.0"
+            },
+            "conflict": {
+                "cakephp/core": "*"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
@@ -3827,7 +3779,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2019-01-26T11:18:06+00:00"
+            "time": "2019-03-27T18:08:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4288,7 +4240,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
