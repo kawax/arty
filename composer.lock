@@ -2044,16 +2044,16 @@
         },
         {
             "name": "laravel-zero/framework",
-            "version": "v5.8.4",
+            "version": "v5.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/framework.git",
-                "reference": "9db010e3906a4d359872074fbbb7bdf789d65438"
+                "reference": "c73c75f6f9975b3823be3c16b452c08904da822c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/framework/zipball/9db010e3906a4d359872074fbbb7bdf789d65438",
-                "reference": "9db010e3906a4d359872074fbbb7bdf789d65438",
+                "url": "https://api.github.com/repos/laravel-zero/framework/zipball/c73c75f6f9975b3823be3c16b452c08904da822c",
+                "reference": "c73c75f6f9975b3823be3c16b452c08904da822c",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2119,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-03-29T20:46:24+00:00"
+            "time": "2019-03-31T10:31:04+00:00"
         },
         {
             "name": "league/flysystem",
