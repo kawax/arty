@@ -60,16 +60,16 @@
         },
         {
             "name": "charlottedunois/eventemitter",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CharlotteDunois/EventEmitter.git",
-                "reference": "cb65273f1b49a60282b00a8d6e1def7620908f61"
+                "reference": "7ebba76b06e56b9b031a46ef00a33300c8ce0b00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CharlotteDunois/EventEmitter/zipball/cb65273f1b49a60282b00a8d6e1def7620908f61",
-                "reference": "cb65273f1b49a60282b00a8d6e1def7620908f61",
+                "url": "https://api.github.com/repos/CharlotteDunois/EventEmitter/zipball/7ebba76b06e56b9b031a46ef00a33300c8ce0b00",
+                "reference": "7ebba76b06e56b9b031a46ef00a33300c8ce0b00",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "event",
                 "events"
             ],
-            "time": "2018-09-06T16:38:22+00:00"
+            "time": "2019-04-14T15:44:49+00:00"
         },
         {
             "name": "charlottedunois/validator",
