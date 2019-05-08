@@ -8,6 +8,8 @@ use Revolution\DiscordManager\Facades\DiscordManager;
 
 use Revolution\DiscordManager\Facades\Yasmin;
 use CharlotteDunois\Yasmin\Models\Message;
+use CharlotteDunois\Yasmin\Interfaces\DMChannelInterface;
+use CharlotteDunois\Yasmin\Interfaces\TextChannelInterface;
 
 class ServeCommand extends Command
 {
@@ -51,18 +53,18 @@ class ServeCommand extends Command
         });
 
         Yasmin::on('message', function (Message $message) {
-            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel->type === 'text' ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
+            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel instanceOf TextChannelInterface ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
 
             if ($message->author->bot) {
                 return;
             }
 
             try {
-                if ($message->channel->type === 'text') {
+                if ($message->channel instanceOf TextChannelInterface) {
                     $this->channel($message);
                 }
 
-                if ($message->channel->type === 'dm') {
+                if ($message->channel instanceOf DMChannelInterface) {
                     $this->direct($message);
                 }
             } catch (\Exception $error) {
