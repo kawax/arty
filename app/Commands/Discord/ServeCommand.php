@@ -53,18 +53,18 @@ class ServeCommand extends Command
         });
 
         Yasmin::on('message', function (Message $message) {
-            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel instanceOf TextChannelInterface ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
+            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel instanceof TextChannelInterface ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
 
             if ($message->author->bot) {
                 return;
             }
 
             try {
-                if ($message->channel instanceOf TextChannelInterface) {
+                if ($message->channel instanceof TextChannelInterface) {
                     $this->channel($message);
                 }
 
-                if ($message->channel instanceOf DMChannelInterface) {
+                if ($message->channel instanceof DMChannelInterface) {
                     $this->direct($message);
                 }
             } catch (\Exception $error) {
