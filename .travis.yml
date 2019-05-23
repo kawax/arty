@@ -19,6 +19,7 @@ cache:
     - vendor
 
 script:
+  - vendor/bin/phpunit
   - 'if [ "$TRAVIS_EVENT_TYPE" = "cron" ]; then php arty discord:test --body="test@Travis"; fi'
 
 after_script:
