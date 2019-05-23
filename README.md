@@ -1,5 +1,9 @@
 # Artisan only application
 
+[![Build Status](https://travis-ci.com/kawax/arty.svg?branch=master)](https://travis-ci.com/kawax/arty)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ac2d9a1669653b4f24ae/maintainability)](https://codeclimate.com/github/kawax/arty/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ac2d9a1669653b4f24ae/test_coverage)](https://codeclimate.com/github/kawax/arty/test_coverage)
+
 - 主にDiscord botを想定したartisanコマンドのみのアプリを作るためのテンプレート
 - artisanコマンドでできることは大体何でも可能なので他の用途にも使えるけどそれならLaravelかLaravel Zeroを直接使えばいい。
 - Laravel Zero https://laravel-zero.com/
