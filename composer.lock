@@ -241,7 +241,6 @@
                 }
             ],
             "description": "Yasmin is a Discord API library for PHP.",
-            "abandoned": true,
             "time": "2019-05-24T14:59:24+00:00"
         },
         {
