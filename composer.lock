@@ -3316,16 +3316,16 @@
         },
         {
             "name": "react/cache",
-            "version": "v0.6.0",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/cache.git",
-                "reference": "a42d149e15b8312918327d5be2ba757cd2f23ff9"
+                "reference": "aa10d63a1b40a36a486bdf527f28bac607ee6466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/cache/zipball/a42d149e15b8312918327d5be2ba757cd2f23ff9",
-                "reference": "a42d149e15b8312918327d5be2ba757cd2f23ff9",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/aa10d63a1b40a36a486bdf527f28bac607ee6466",
+                "reference": "aa10d63a1b40a36a486bdf527f28bac607ee6466",
                 "shasum": ""
             },
             "require": {
@@ -3352,7 +3352,7 @@
                 "promise",
                 "reactphp"
             ],
-            "time": "2019-07-04T14:45:59+00:00"
+            "time": "2019-07-11T13:45:28+00:00"
         },
         {
             "name": "react/child-process",
@@ -3399,16 +3399,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v0.4.19",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "6852fb98e22d2e5bb35fe5aeeaa96551b120e7c9"
+                "reference": "26c3e7b86f139217b6acc1bc160e2019787555fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/6852fb98e22d2e5bb35fe5aeeaa96551b120e7c9",
-                "reference": "6852fb98e22d2e5bb35fe5aeeaa96551b120e7c9",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/26c3e7b86f139217b6acc1bc160e2019787555fb",
+                "reference": "26c3e7b86f139217b6acc1bc160e2019787555fb",
                 "shasum": ""
             },
             "require": {
@@ -3440,7 +3440,7 @@
                 "dns-resolver",
                 "reactphp"
             ],
-            "time": "2019-07-10T21:00:53+00:00"
+            "time": "2019-07-11T14:58:39+00:00"
         },
         {
             "name": "react/event-loop",
