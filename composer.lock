@@ -3892,22 +3892,22 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "2b614780a746e7f181406cd2226a80102267f545"
+                "reference": "6df068ffe26a731cbbd635c52ddf9585e379a141"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/2b614780a746e7f181406cd2226a80102267f545",
-                "reference": "2b614780a746e7f181406cd2226a80102267f545",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/6df068ffe26a731cbbd635c52ddf9585e379a141",
+                "reference": "6df068ffe26a731cbbd635c52ddf9585e379a141",
                 "shasum": ""
             },
             "require": {
                 "charlottedunois/yasmin": "^0.6",
-                "illuminate/console": "^5.7",
-                "illuminate/support": "^5.7",
+                "illuminate/console": "^5.7 || ^6.0",
+                "illuminate/support": "^5.7 || ^6.0",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": ">=7.1.3",
                 "restcord/restcord": "^0.3.0"
@@ -3951,7 +3951,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2019-05-08T05:00:31+00:00"
+            "time": "2019-07-25T04:17:59+00:00"
         },
         {
             "name": "ringcentral/psr7",
@@ -6285,16 +6285,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "3.0.2",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c"
+                "reference": "e899757bb3df5ff6e95089132f32cd59aac2220a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c",
-                "reference": "c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/e899757bb3df5ff6e95089132f32cd59aac2220a",
+                "reference": "e899757bb3df5ff6e95089132f32cd59aac2220a",
                 "shasum": ""
             },
             "require": {
@@ -6307,7 +6307,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -6330,7 +6330,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2019-07-08T05:24:54+00:00"
+            "time": "2019-07-25T05:29:42+00:00"
         },
         {
             "name": "phpunit/phpunit",
