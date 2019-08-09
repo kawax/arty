@@ -3844,16 +3844,16 @@
         },
         {
             "name": "restcord/restcord",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/restcord/restcord.git",
-                "reference": "c1d8c8cf5423a502e6c485269bc1db5db4116d6e"
+                "reference": "2e332138428a91fbcc70630c324aa5a449c11b01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restcord/restcord/zipball/c1d8c8cf5423a502e6c485269bc1db5db4116d6e",
-                "reference": "c1d8c8cf5423a502e6c485269bc1db5db4116d6e",
+                "url": "https://api.github.com/repos/restcord/restcord/zipball/2e332138428a91fbcc70630c324aa5a449c11b01",
+                "reference": "2e332138428a91fbcc70630c324aa5a449c11b01",
                 "shasum": ""
             },
             "require": {
@@ -3890,7 +3890,7 @@
                 }
             ],
             "description": "REST Library for the Discord API",
-            "time": "2018-12-27T19:50:58+00:00"
+            "time": "2019-08-08T23:33:12+00:00"
         },
         {
             "name": "revolution/discord-manager",
