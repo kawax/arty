@@ -5406,16 +5406,16 @@
         },
         {
             "name": "wyrihaximus/react-child-process-messenger",
-            "version": "2.9.3",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-child-process-messenger.git",
-                "reference": "960fcaa4922d56ddb23e2e187a9c8b8f62b7a73e"
+                "reference": "813bd47c69935edc1a054438f47622b629430e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/960fcaa4922d56ddb23e2e187a9c8b8f62b7a73e",
-                "reference": "960fcaa4922d56ddb23e2e187a9c8b8f62b7a73e",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/813bd47c69935edc1a054438f47622b629430e13",
+                "reference": "813bd47c69935edc1a054438f47622b629430e13",
                 "shasum": ""
             },
             "require": {
@@ -5459,20 +5459,20 @@
                 }
             ],
             "description": "Messenger decorator for react/child-process",
-            "time": "2019-03-26T20:05:48+00:00"
+            "time": "2019-08-28T15:10:40+00:00"
         },
         {
             "name": "wyrihaximus/react-child-process-pool",
-            "version": "1.5.1",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-child-process-pool.git",
-                "reference": "d61e27af86e76e2e1045a262a2f4ab43929e521e"
+                "reference": "c5063e10d12894e20f17eb1aadf2437232450c08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-pool/zipball/d61e27af86e76e2e1045a262a2f4ab43929e521e",
-                "reference": "d61e27af86e76e2e1045a262a2f4ab43929e521e",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-pool/zipball/c5063e10d12894e20f17eb1aadf2437232450c08",
+                "reference": "c5063e10d12894e20f17eb1aadf2437232450c08",
                 "shasum": ""
             },
             "require": {
@@ -5481,7 +5481,7 @@
                 "react/event-loop": "^1.1",
                 "wyrihaximus/cpu-core-detector": "^1.0.2",
                 "wyrihaximus/file-descriptors": "^1.0 || ^0.1",
-                "wyrihaximus/react-child-process-messenger": "^2.9",
+                "wyrihaximus/react-child-process-messenger": "^2.10",
                 "wyrihaximus/ticking-promise": "^1.5"
             },
             "require-dev": {
@@ -5514,7 +5514,7 @@
                 }
             ],
             "description": "Pool wyrihaximus/react-child-process-messenger processes",
-            "time": "2019-03-20T21:11:00+00:00"
+            "time": "2019-08-28T16:54:46+00:00"
         },
         {
             "name": "wyrihaximus/react-child-process-promise",
