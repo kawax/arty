@@ -4082,16 +4082,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "136c4bd62ea871d00843d1bc0316de4c4a84bb78"
+                "reference": "d2e39dbddae68560fa6be0c576da6ad4e945b90d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/136c4bd62ea871d00843d1bc0316de4c4a84bb78",
-                "reference": "136c4bd62ea871d00843d1bc0316de4c4a84bb78",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d2e39dbddae68560fa6be0c576da6ad4e945b90d",
+                "reference": "d2e39dbddae68560fa6be0c576da6ad4e945b90d",
                 "shasum": ""
             },
             "require": {
@@ -4153,11 +4153,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-30T12:58:49+00:00"
+            "time": "2019-11-05T15:00:49+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -4210,7 +4210,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -4266,7 +4266,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -4315,7 +4315,7 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
@@ -4720,7 +4720,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -4827,16 +4827,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "a3aa590ce944afb3434d7a55f81b00927144d5ec"
+                "reference": "bbce239b35b0cd47bd75848b23e969f17dd970e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/a3aa590ce944afb3434d7a55f81b00927144d5ec",
-                "reference": "a3aa590ce944afb3434d7a55f81b00927144d5ec",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/bbce239b35b0cd47bd75848b23e969f17dd970e7",
+                "reference": "bbce239b35b0cd47bd75848b23e969f17dd970e7",
                 "shasum": ""
             },
             "require": {
@@ -4899,7 +4899,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-30T12:53:54+00:00"
+            "time": "2019-11-06T23:21:49+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -4960,7 +4960,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.3.6",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
