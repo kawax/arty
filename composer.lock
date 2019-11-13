@@ -1057,7 +1057,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -1108,7 +1108,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1153,16 +1153,16 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "573ee1f673fa8a0a5fb56dee2714b440192201f6"
+                "reference": "b7121bc6c2f345beae396bf7081c566b17d335d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/573ee1f673fa8a0a5fb56dee2714b440192201f6",
-                "reference": "573ee1f673fa8a0a5fb56dee2714b440192201f6",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/b7121bc6c2f345beae396bf7081c566b17d335d4",
+                "reference": "b7121bc6c2f345beae396bf7081c566b17d335d4",
                 "shasum": ""
             },
             "require": {
@@ -1200,11 +1200,11 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "https://laravel.com",
-            "time": "2019-10-14T13:10:05+00:00"
+            "time": "2019-11-11T13:48:22+00:00"
         },
         {
             "name": "illuminate/config",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1248,7 +1248,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -1299,21 +1299,20 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "b36888780c1c483b3a9c2e6aa3d7545a969eb237"
+                "reference": "54f4bb37652076cdd4f518f1acc123a235fccdac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/b36888780c1c483b3a9c2e6aa3d7545a969eb237",
-                "reference": "b36888780c1c483b3a9c2e6aa3d7545a969eb237",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/54f4bb37652076cdd4f518f1acc123a235fccdac",
+                "reference": "54f4bb37652076cdd4f518f1acc123a235fccdac",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^6.0",
-                "illuminate/support": "^6.0",
                 "php": "^7.2",
                 "psr/container": "^1.0"
             },
@@ -1340,11 +1339,11 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2019-10-02T12:56:51+00:00"
+            "time": "2019-11-06T13:26:31+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1388,16 +1387,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "468f5046f58b912a7c7b7a984a5a8777f7e147af"
+                "reference": "5351516d3e9b77fe4b0225c0b52883a718c4c0be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/468f5046f58b912a7c7b7a984a5a8777f7e147af",
-                "reference": "468f5046f58b912a7c7b7a984a5a8777f7e147af",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/5351516d3e9b77fe4b0225c0b52883a718c4c0be",
+                "reference": "5351516d3e9b77fe4b0225c0b52883a718c4c0be",
                 "shasum": ""
             },
             "require": {
@@ -1444,11 +1443,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2019-11-05T14:11:07+00:00"
+            "time": "2019-11-12T14:40:39+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1493,7 +1492,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1545,16 +1544,16 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
-                "reference": "16de894808d5b213557c1e14d1075d8512ab6884"
+                "reference": "6152d814717d0d4f9bb6f5f629a55fe817f4f748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/mail/zipball/16de894808d5b213557c1e14d1075d8512ab6884",
-                "reference": "16de894808d5b213557c1e14d1075d8512ab6884",
+                "url": "https://api.github.com/repos/illuminate/mail/zipball/6152d814717d0d4f9bb6f5f629a55fe817f4f748",
+                "reference": "6152d814717d0d4f9bb6f5f629a55fe817f4f748",
                 "shasum": ""
             },
             "require": {
@@ -1596,11 +1595,11 @@
             ],
             "description": "The Illuminate Mail package.",
             "homepage": "https://laravel.com",
-            "time": "2019-10-22T12:57:26+00:00"
+            "time": "2019-11-12T14:47:12+00:00"
         },
         {
             "name": "illuminate/notifications",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
@@ -1653,7 +1652,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1697,7 +1696,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -1757,7 +1756,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1818,16 +1817,16 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.5.0",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "0757d4d55adc938dee12f1c8b11dfbdc8a07227d"
+                "reference": "f45bdea63c2b78a321b25d0f543f2f037f1dbca9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/0757d4d55adc938dee12f1c8b11dfbdc8a07227d",
-                "reference": "0757d4d55adc938dee12f1c8b11dfbdc8a07227d",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/f45bdea63c2b78a321b25d0f543f2f037f1dbca9",
+                "reference": "f45bdea63c2b78a321b25d0f543f2f037f1dbca9",
                 "shasum": ""
             },
             "require": {
@@ -1863,7 +1862,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "https://laravel.com",
-            "time": "2019-11-01T12:59:54+00:00"
+            "time": "2019-11-08T13:18:30+00:00"
         },
         {
             "name": "indigophp/hash-compat",
@@ -4020,16 +4019,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.1",
+            "version": "v6.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "5397cd05b0a0f7937c47b0adcb4c60e5ab936b6a"
+                "reference": "149cfdf118b169f7840bbe3ef0d4bc795d1780c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/5397cd05b0a0f7937c47b0adcb4c60e5ab936b6a",
-                "reference": "5397cd05b0a0f7937c47b0adcb4c60e5ab936b6a",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/149cfdf118b169f7840bbe3ef0d4bc795d1780c9",
+                "reference": "149cfdf118b169f7840bbe3ef0d4bc795d1780c9",
                 "shasum": ""
             },
             "require": {
@@ -4078,7 +4077,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2019-04-21T09:21:45+00:00"
+            "time": "2019-11-12T09:31:26+00:00"
         },
         {
             "name": "symfony/console",
