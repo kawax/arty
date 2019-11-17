@@ -96,6 +96,7 @@
             ],
             "description": "Collection, an utility to conventionally store a key-value pair.",
             "homepage": "https://github.com/CharlotteDunois/Collection",
+            "abandoned": true,
             "time": "2018-12-04T18:43:09+00:00"
         },
         {
@@ -139,6 +140,7 @@
                 "event",
                 "events"
             ],
+            "abandoned": true,
             "time": "2019-04-14T15:44:49+00:00"
         },
         {
@@ -182,6 +184,7 @@
             "keywords": [
                 "validation"
             ],
+            "abandoned": true,
             "time": "2019-01-15T17:31:56+00:00"
         },
         {
