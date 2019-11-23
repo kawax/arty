@@ -189,16 +189,16 @@
         },
         {
             "name": "charlottedunois/yasmin",
-            "version": "v0.6.2",
+            "version": "v0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CharlotteDunois/Yasmin.git",
-                "reference": "a0a6fa8fb923d349ed798e8cb8d52366b28c63a4"
+                "reference": "5cf785347c42cbe0a31a2512888eabf05707a7d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CharlotteDunois/Yasmin/zipball/a0a6fa8fb923d349ed798e8cb8d52366b28c63a4",
-                "reference": "a0a6fa8fb923d349ed798e8cb8d52366b28c63a4",
+                "url": "https://api.github.com/repos/CharlotteDunois/Yasmin/zipball/5cf785347c42cbe0a31a2512888eabf05707a7d3",
+                "reference": "5cf785347c42cbe0a31a2512888eabf05707a7d3",
                 "shasum": ""
             },
             "require": {
@@ -247,7 +247,7 @@
                 }
             ],
             "description": "Yasmin is a Discord API library for PHP.",
-            "time": "2019-10-02T19:42:22+00:00"
+            "time": "2019-11-22T18:53:13+00:00"
         },
         {
             "name": "clue/buzz-react",
