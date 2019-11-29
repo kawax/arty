@@ -3907,16 +3907,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "0264e1a52c87fc58782cdc6c6d5168db6818f82f"
+                "reference": "3bea28d036491257a46d235ae13b7edbf6f1ee7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/0264e1a52c87fc58782cdc6c6d5168db6818f82f",
-                "reference": "0264e1a52c87fc58782cdc6c6d5168db6818f82f",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/3bea28d036491257a46d235ae13b7edbf6f1ee7c",
+                "reference": "3bea28d036491257a46d235ae13b7edbf6f1ee7c",
                 "shasum": ""
             },
             "require": {
@@ -3964,7 +3964,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2019-11-04T11:11:45+00:00"
+            "time": "2019-11-29T02:19:38+00:00"
         },
         {
             "name": "ringcentral/psr7",
