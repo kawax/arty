@@ -2131,16 +2131,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v6.0.5",
+            "version": "v6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "fdda20b890e21ded358f18702e2070151a530600"
+                "reference": "1a734e4df3e8d38cd2ca39cb092b7622615eb165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/fdda20b890e21ded358f18702e2070151a530600",
-                "reference": "fdda20b890e21ded358f18702e2070151a530600",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/1a734e4df3e8d38cd2ca39cb092b7622615eb165",
+                "reference": "1a734e4df3e8d38cd2ca39cb092b7622615eb165",
                 "shasum": ""
             },
             "require": {
@@ -2167,7 +2167,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-10-03T20:37:25+00:00"
+            "time": "2019-12-12T12:35:20+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -2880,28 +2880,29 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "a8593bf5176bf3d3f2966942c530be19b44ec87c"
+                "reference": "318ad673ba36e53e10ca510aec1c54b4f2a5f2ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/a8593bf5176bf3d3f2966942c530be19b44ec87c",
-                "reference": "a8593bf5176bf3d3f2966942c530be19b44ec87c",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/318ad673ba36e53e10ca510aec1c54b4f2a5f2ae",
+                "reference": "318ad673ba36e53e10ca510aec1c54b4f2a5f2ae",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
             },
             "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.3",
                 "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -2930,7 +2931,7 @@
                 "php",
                 "type"
             ],
-            "time": "2019-12-11T13:45:14+00:00"
+            "time": "2019-12-13T00:10:22+00:00"
         },
         {
             "name": "psr/container",
