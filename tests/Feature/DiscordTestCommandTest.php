@@ -24,7 +24,7 @@ class DiscordTestCommandTest extends TestCase
              ->assertExitCode(0);
 
         Notification::assertSentTo(
-            new AnonymousNotifiable, TestNotification::class
+            new AnonymousNotifiable(), TestNotification::class
         );
     }
 }
