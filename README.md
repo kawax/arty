@@ -17,6 +17,14 @@ composer create-project --prefer-dist revolution/arty:dev-master discord-bot && 
 
 `php arty`でコマンドリスト表示。
 
+### GitHubのTemplateから作成した場合
+手動での.envコピーなどが必要。
+
+```
+cp .env.example .env
+composer install
+```
+
 ## Laravel Zeroから追加した機能
 
 - Laravel Notification
