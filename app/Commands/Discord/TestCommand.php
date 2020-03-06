@@ -2,12 +2,11 @@
 
 namespace App\Commands\Discord;
 
+use App\Notifications\TestNotification;
 use Illuminate\Console\Scheduling\Schedule;
-use LaravelZero\Framework\Commands\Command;
-
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Storage;
-use App\Notifications\TestNotification;
+use LaravelZero\Framework\Commands\Command;
 
 class TestCommand extends Command
 {

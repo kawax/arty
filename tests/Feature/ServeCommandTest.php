@@ -2,9 +2,8 @@
 
 namespace Tests\Feature;
 
-use Tests\TestCase;
-
 use Revolution\DiscordManager\Facades\Yasmin;
+use Tests\TestCase;
 
 class ServeCommandTest extends TestCase
 {

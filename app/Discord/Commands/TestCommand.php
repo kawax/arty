@@ -18,6 +18,6 @@ class TestCommand
      */
     public function __invoke(Message $message)
     {
-        return 'test! ' . $message->author->username;
+        return 'test! '.$message->author->username;
     }
 }
