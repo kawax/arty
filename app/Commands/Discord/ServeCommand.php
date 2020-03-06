@@ -2,14 +2,12 @@
 
 namespace App\Commands\Discord;
 
-use LaravelZero\Framework\Commands\Command;
-
-use Revolution\DiscordManager\Facades\DiscordManager;
-
-use Revolution\DiscordManager\Facades\Yasmin;
-use CharlotteDunois\Yasmin\Models\Message;
 use CharlotteDunois\Yasmin\Interfaces\DMChannelInterface;
 use CharlotteDunois\Yasmin\Interfaces\TextChannelInterface;
+use CharlotteDunois\Yasmin\Models\Message;
+use LaravelZero\Framework\Commands\Command;
+use Revolution\DiscordManager\Facades\DiscordManager;
+use Revolution\DiscordManager\Facades\Yasmin;
 
 class ServeCommand extends Command
 {
@@ -49,11 +47,11 @@ class ServeCommand extends Command
         });
 
         Yasmin::on('ready', function () {
-            $this->info('Logged in as ' . Yasmin::user()->tag . ' created on ' . Yasmin::user()->createdAt->format('d.m.Y H:i:s'));
+            $this->info('Logged in as '.Yasmin::user()->tag.' created on '.Yasmin::user()->createdAt->format('d.m.Y H:i:s'));
         });
 
         Yasmin::on('message', function (Message $message) {
-            $this->line('Received Message from ' . $message->author->tag . ' in ' . ($message->channel instanceof TextChannelInterface ? 'channel #' . $message->channel->name : 'DM') . ' with ' . $message->attachments->count() . ' attachment(s) and ' . count($message->embeds) . ' embed(s)');
+            $this->line('Received Message from '.$message->author->tag.' in '.($message->channel instanceof TextChannelInterface ? 'channel #'.$message->channel->name : 'DM').' with '.$message->attachments->count().' attachment(s) and '.count($message->embeds).' embed(s)');
 
             if ($message->author->bot) {
                 return;
@@ -81,7 +79,7 @@ class ServeCommand extends Command
      */
     protected function channel(Message $message)
     {
-        if (!$message->mentions->members->has(config('services.discord.bot'))) {
+        if (! $message->mentions->members->has(config('services.discord.bot'))) {
             return;
         }
 
