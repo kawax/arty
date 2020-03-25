@@ -2,3 +2,4 @@
 .travis.yml export-ignore
 .styleci.yml export-ignore
 .update.yml export-ignore
+.gitlab-ci.yml export-ignore
