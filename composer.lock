@@ -59,197 +59,6 @@
             "time": "2018-04-28T02:15:39+00:00"
         },
         {
-            "name": "charlottedunois/collection",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CharlotteDunois/Collection.git",
-                "reference": "b95c81b207651689c3f08040e00760d80565fd44"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CharlotteDunois/Collection/zipball/b95c81b207651689c3f08040e00760d80565fd44",
-                "reference": "b95c81b207651689c3f08040e00760d80565fd44",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.0|^7.0|^6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CharlotteDunois\\Collect\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Charlotte Dunois",
-                    "email": "github@charuru.moe"
-                }
-            ],
-            "description": "Collection, an utility to conventionally store a key-value pair.",
-            "homepage": "https://github.com/CharlotteDunois/Collection",
-            "abandoned": true,
-            "time": "2018-12-04T18:43:09+00:00"
-        },
-        {
-            "name": "charlottedunois/eventemitter",
-            "version": "v0.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CharlotteDunois/EventEmitter.git",
-                "reference": "7ebba76b06e56b9b031a46ef00a33300c8ce0b00"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CharlotteDunois/EventEmitter/zipball/7ebba76b06e56b9b031a46ef00a33300c8ce0b00",
-                "reference": "7ebba76b06e56b9b031a46ef00a33300c8ce0b00",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CharlotteDunois\\Events\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Charlotte Dunois",
-                    "email": "github@charuru.moe"
-                }
-            ],
-            "description": "This is an Event Emitter equivalent to Node.js' Event Emitter.",
-            "homepage": "https://github.com/CharlotteDunois/EventEmitter",
-            "keywords": [
-                "EventEmitter",
-                "emitter",
-                "event",
-                "events"
-            ],
-            "abandoned": true,
-            "time": "2019-04-14T15:44:49+00:00"
-        },
-        {
-            "name": "charlottedunois/validator",
-            "version": "v0.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CharlotteDunois/Validator.git",
-                "reference": "f55734605db4dc630d7f263d0bcdc7d83d9bbfbc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CharlotteDunois/Validator/zipball/f55734605db4dc630d7f263d0bcdc7d83d9bbfbc",
-                "reference": "f55734605db4dc630d7f263d0bcdc7d83d9bbfbc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CharlotteDunois\\Validation\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Charlotte Dunois",
-                    "email": "github@charuru.moe"
-                }
-            ],
-            "description": "PHP Validator for stuff.",
-            "homepage": "https://github.com/CharlotteDunois/Validator",
-            "keywords": [
-                "validation"
-            ],
-            "time": "2019-01-15T17:31:56+00:00"
-        },
-        {
-            "name": "charlottedunois/yasmin",
-            "version": "v0.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CharlotteDunois/Yasmin.git",
-                "reference": "3beff0ee55e86ea44420cfd4942e722542308266"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CharlotteDunois/Yasmin/zipball/3beff0ee55e86ea44420cfd4942e722542308266",
-                "reference": "3beff0ee55e86ea44420cfd4942e722542308266",
-                "shasum": ""
-            },
-            "require": {
-                "charlottedunois/collection": "^0.2.0",
-                "charlottedunois/eventemitter": "^0.1.5",
-                "charlottedunois/validator": "^0.3.0",
-                "clue/buzz-react": "^2.6.0",
-                "ext-bcmath": "*",
-                "ext-date": "*",
-                "ext-filter": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "ext-openssl": "*",
-                "ext-pcre": "*",
-                "ext-zlib": "*",
-                "php": ">=7.1",
-                "psr/http-message": "^1.0",
-                "ratchet/pawl": "^0.3.1",
-                "react/event-loop": "^1.0|^0.5|^0.4.3",
-                "react/filesystem": "^0.1.1",
-                "react/promise": "^2.7.0",
-                "ringcentral/psr7": "^1.2"
-            },
-            "require-dev": {
-                "charlottedunois/athena": "^0.1.1|dev-master",
-                "charlottedunois/kimberly": "^0.1.2|dev-master"
-            },
-            "suggest": {
-                "charlottedunois/athena": "For Redis-backed ratelimit bucket",
-                "charlottedunois/kimberly": "For WS encoding etf 🚀"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CharlotteDunois\\Yasmin\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CharlotteDunois",
-                    "email": "github@charuru.moe"
-                }
-            ],
-            "description": "Yasmin is a Discord API library for PHP.",
-            "abandoned": true,
-            "time": "2019-12-01T12:05:50+00:00"
-        },
-        {
             "name": "clue/buzz-react",
             "version": "v2.7.0",
             "source": {
@@ -2122,6 +1931,187 @@
             "time": "2020-01-10T15:37:00+00:00"
         },
         {
+            "name": "laravel-discord/collection",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-discord/Collection.git",
+                "reference": "4667f8aa4979ffd72fbbae20ffbdd38ad78d2017"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-discord/Collection/zipball/4667f8aa4979ffd72fbbae20ffbdd38ad78d2017",
+                "reference": "4667f8aa4979ffd72fbbae20ffbdd38ad78d2017",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0|^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CharlotteDunois\\Collect\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Charlotte Dunois",
+                    "email": "github@charuru.moe"
+                }
+            ],
+            "description": "Collection, an utility to conventionally store a key-value pair.",
+            "homepage": "https://github.com/CharlotteDunois/Collection",
+            "time": "2020-03-27T01:20:54+00:00"
+        },
+        {
+            "name": "laravel-discord/eventemitter",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-discord/EventEmitter.git",
+                "reference": "e1f5dc8793adef4669f125e7c688407be116e8fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-discord/EventEmitter/zipball/e1f5dc8793adef4669f125e7c688407be116e8fe",
+                "reference": "e1f5dc8793adef4669f125e7c688407be116e8fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CharlotteDunois\\Events\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Charlotte Dunois",
+                    "email": "github@charuru.moe"
+                }
+            ],
+            "description": "This is an Event Emitter equivalent to Node.js' Event Emitter.",
+            "homepage": "https://github.com/CharlotteDunois/EventEmitter",
+            "keywords": [
+                "EventEmitter",
+                "emitter",
+                "event",
+                "events"
+            ],
+            "time": "2020-03-27T01:19:40+00:00"
+        },
+        {
+            "name": "laravel-discord/validator",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-discord/Validator.git",
+                "reference": "7212e88a118e3efff50debc03238b52bbf5667ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-discord/Validator/zipball/7212e88a118e3efff50debc03238b52bbf5667ee",
+                "reference": "7212e88a118e3efff50debc03238b52bbf5667ee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CharlotteDunois\\Validation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Charlotte Dunois",
+                    "email": "github@charuru.moe"
+                }
+            ],
+            "description": "PHP Validator for stuff.",
+            "homepage": "https://github.com/CharlotteDunois/Validator",
+            "keywords": [
+                "validation"
+            ],
+            "time": "2020-03-27T01:18:15+00:00"
+        },
+        {
+            "name": "laravel-discord/yasmin",
+            "version": "v0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-discord/Yasmin.git",
+                "reference": "fee3b8dba17399994e6aa17ed70cd57efabe190c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/fee3b8dba17399994e6aa17ed70cd57efabe190c",
+                "reference": "fee3b8dba17399994e6aa17ed70cd57efabe190c",
+                "shasum": ""
+            },
+            "require": {
+                "clue/buzz-react": "^2.6.0",
+                "ext-bcmath": "*",
+                "ext-date": "*",
+                "ext-filter": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "ext-zlib": "*",
+                "laravel-discord/collection": "^0.3.0",
+                "laravel-discord/eventemitter": "^0.2.0",
+                "laravel-discord/validator": "^0.4.0",
+                "php": ">=7.1",
+                "psr/http-message": "^1.0",
+                "ratchet/pawl": "^0.3.1",
+                "react/event-loop": "^1.0|^0.5|^0.4.3",
+                "react/filesystem": "^0.1.1",
+                "react/promise": "^2.7.0",
+                "ringcentral/psr7": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CharlotteDunois\\Yasmin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CharlotteDunois",
+                    "email": "github@charuru.moe"
+                }
+            ],
+            "description": "Yasmin is a Discord API library for PHP.",
+            "time": "2020-03-27T01:39:10+00:00"
+        },
+        {
             "name": "laravel-notification-channels/discord",
             "version": "1.1.1",
             "source": {
@@ -2571,16 +2561,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.32.0",
+            "version": "2.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "7410a349613bf32d02d8aaed1c669698ddd2b718"
+                "reference": "ecb525c766deb3bbbb6a0082ea0e41d3d9ae477c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7410a349613bf32d02d8aaed1c669698ddd2b718",
-                "reference": "7410a349613bf32d02d8aaed1c669698ddd2b718",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ecb525c766deb3bbbb6a0082ea0e41d3d9ae477c",
+                "reference": "ecb525c766deb3bbbb6a0082ea0e41d3d9ae477c",
                 "shasum": ""
             },
             "require": {
@@ -2648,7 +2638,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-24T16:01:47+00:00"
+            "time": "2020-03-26T13:04:10+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -4109,20 +4099,20 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.2.1",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "868cff716ea19be3aabc83452850a32988bcf951"
+                "reference": "0eb9d95d172a5b80d8e10aae4322af9e49c165ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/868cff716ea19be3aabc83452850a32988bcf951",
-                "reference": "868cff716ea19be3aabc83452850a32988bcf951",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/0eb9d95d172a5b80d8e10aae4322af9e49c165ed",
+                "reference": "0eb9d95d172a5b80d8e10aae4322af9e49c165ed",
                 "shasum": ""
             },
             "require": {
-                "charlottedunois/yasmin": "^0.7",
+                "laravel-discord/yasmin": "^0.8",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": "^7.2||^8.0",
                 "restcord/restcord": "^0.3.0"
@@ -4131,8 +4121,8 @@
                 "cakephp/core": "*"
             },
             "require-dev": {
-                "mockery/mockery": "^1.0",
-                "orchestra/testbench": "^4.0",
+                "mockery/mockery": "^1.3",
+                "orchestra/testbench": "^4.0||^5.0",
                 "phpunit/phpunit": "^8.0||^9.0"
             },
             "type": "library",
@@ -4166,7 +4156,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2020-02-26T01:31:32+00:00"
+            "time": "2020-03-27T01:48:41+00:00"
         },
         {
             "name": "ringcentral/psr7",
@@ -4619,16 +4609,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
+                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
-                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
                 "shasum": ""
             },
             "require": {
@@ -4640,7 +4630,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4673,20 +4663,34 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-02-27T09:26:54+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "926832ce51059bb58211b7b2080a88e0c3b5328e"
+                "reference": "ad6d62792bfbcfc385dd34b424d4fcf9712a32c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/926832ce51059bb58211b7b2080a88e0c3b5328e",
-                "reference": "926832ce51059bb58211b7b2080a88e0c3b5328e",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/ad6d62792bfbcfc385dd34b424d4fcf9712a32c8",
+                "reference": "ad6d62792bfbcfc385dd34b424d4fcf9712a32c8",
                 "shasum": ""
             },
             "require": {
@@ -4698,7 +4702,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4732,20 +4736,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "6842f1a39cf7d580655688069a03dd7cd83d244a"
+                "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/6842f1a39cf7d580655688069a03dd7cd83d244a",
-                "reference": "6842f1a39cf7d580655688069a03dd7cd83d244a",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
+                "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
                 "shasum": ""
             },
             "require": {
@@ -4759,7 +4777,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4794,20 +4812,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-17T12:01:36+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
                 "shasum": ""
             },
             "require": {
@@ -4819,7 +4851,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4853,20 +4885,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "46ecacf4751dd0dc81e4f6bf01dbf9da1dc1dadf"
+                "reference": "37b0976c78b94856543260ce09b460a7bc852747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/46ecacf4751dd0dc81e4f6bf01dbf9da1dc1dadf",
-                "reference": "46ecacf4751dd0dc81e4f6bf01dbf9da1dc1dadf",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
+                "reference": "37b0976c78b94856543260ce09b460a7bc852747",
                 "shasum": ""
             },
             "require": {
@@ -4875,7 +4921,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4908,20 +4954,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-02-27T09:26:54+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "5e66a0fa1070bf46bec4bea7962d285108edd675"
+                "reference": "0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/5e66a0fa1070bf46bec4bea7962d285108edd675",
-                "reference": "5e66a0fa1070bf46bec4bea7962d285108edd675",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7",
+                "reference": "0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7",
                 "shasum": ""
             },
             "require": {
@@ -4930,7 +4990,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4966,7 +5026,21 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-02-27T09:26:54+00:00"
         },
         {
             "name": "symfony/process",
@@ -5150,6 +5224,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-02-04T07:41:34+00:00"
         },
         {
