@@ -2131,16 +2131,16 @@
         },
         {
             "name": "laravel-zero/framework",
-            "version": "v7.0.0",
+            "version": "v7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/framework.git",
-                "reference": "17723324e1f398b4f7791b8c3a24ebbf4761d0ce"
+                "reference": "f76b8cf12a6ca54ebbb27bab5d64a2db43f3b80c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/framework/zipball/17723324e1f398b4f7791b8c3a24ebbf4761d0ce",
-                "reference": "17723324e1f398b4f7791b8c3a24ebbf4761d0ce",
+                "url": "https://api.github.com/repos/laravel-zero/framework/zipball/f76b8cf12a6ca54ebbb27bab5d64a2db43f3b80c",
+                "reference": "f76b8cf12a6ca54ebbb27bab5d64a2db43f3b80c",
                 "shasum": ""
             },
             "require": {
@@ -2213,7 +2213,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-03-15T19:14:33+00:00"
+            "time": "2020-04-17T16:26:47+00:00"
         },
         {
             "name": "league/commonmark",
