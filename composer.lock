@@ -60,16 +60,16 @@
         },
         {
             "name": "clue/buzz-react",
-            "version": "v2.8.2",
+            "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/clue/reactphp-buzz.git",
-                "reference": "65b441d9e914952464558fb2dbd4f57d27640c99"
+                "reference": "eb180b5e0db00a3febaa458289706b8ca80ffe2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clue/reactphp-buzz/zipball/65b441d9e914952464558fb2dbd4f57d27640c99",
-                "reference": "65b441d9e914952464558fb2dbd4f57d27640c99",
+                "url": "https://api.github.com/repos/clue/reactphp-buzz/zipball/eb180b5e0db00a3febaa458289706b8ca80ffe2a",
+                "reference": "eb180b5e0db00a3febaa458289706b8ca80ffe2a",
                 "shasum": ""
             },
             "require": {
@@ -78,7 +78,7 @@
                 "react/event-loop": "^1.0 || ^0.5",
                 "react/http-client": "^0.5.10",
                 "react/promise": "^2.2.1 || ^1.2.1",
-                "react/promise-stream": "^1.0 || ^0.1.1",
+                "react/promise-stream": "^1.0 || ^0.1.2",
                 "react/socket": "^1.1",
                 "react/stream": "^1.0 || ^0.7",
                 "ringcentral/psr7": "^1.2"
@@ -88,7 +88,7 @@
                 "clue/http-proxy-react": "^1.3",
                 "clue/reactphp-ssh-proxy": "^1.0",
                 "clue/socks-react": "^1.0",
-                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35",
+                "phpunit/phpunit": "^9.0 || ^5.7 || ^4.8.35",
                 "react/http": "^0.8"
             },
             "type": "library",
@@ -126,7 +126,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-06-02T09:43:30+00:00"
+            "time": "2020-07-03T10:43:43+00:00"
         },
         {
             "name": "doctrine/inflector",
