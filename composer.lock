@@ -930,7 +930,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -981,7 +981,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1029,16 +1029,16 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "be44a7f9c53b586407710ce900c791c94b749552"
+                "reference": "b28b43e1cd4f7a336a68b64d64ff4809838bade9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/be44a7f9c53b586407710ce900c791c94b749552",
-                "reference": "be44a7f9c53b586407710ce900c791c94b749552",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/b28b43e1cd4f7a336a68b64d64ff4809838bade9",
+                "reference": "b28b43e1cd4f7a336a68b64d64ff4809838bade9",
                 "shasum": ""
             },
             "require": {
@@ -1076,11 +1076,11 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "https://laravel.com",
-            "time": "2020-07-02T19:01:00+00:00"
+            "time": "2020-07-07T15:44:46+00:00"
         },
         {
             "name": "illuminate/config",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1124,7 +1124,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -1178,7 +1178,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1225,7 +1225,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1269,16 +1269,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "5e8d2faa450236c159ab641e51a2dd9f2d082d54"
+                "reference": "db056f6bf1cddc0323ab47579abb6f761fc6fac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/5e8d2faa450236c159ab641e51a2dd9f2d082d54",
-                "reference": "5e8d2faa450236c159ab641e51a2dd9f2d082d54",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/db056f6bf1cddc0323ab47579abb6f761fc6fac4",
+                "reference": "db056f6bf1cddc0323ab47579abb6f761fc6fac4",
                 "shasum": ""
             },
             "require": {
@@ -1327,11 +1327,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-07-07T14:06:58+00:00"
+            "time": "2020-07-10T13:30:22+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1376,7 +1376,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1431,7 +1431,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -1486,7 +1486,7 @@
         },
         {
             "name": "illuminate/notifications",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
@@ -1539,7 +1539,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1583,7 +1583,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "cea67c53207fd71231e4d0c1e096107c4059036e"
+                "reference": "6f95a9659e1ad33ce97db79b56faadb72f27e7ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/cea67c53207fd71231e4d0c1e096107c4059036e",
-                "reference": "cea67c53207fd71231e4d0c1e096107c4059036e",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/6f95a9659e1ad33ce97db79b56faadb72f27e7ed",
+                "reference": "6f95a9659e1ad33ce97db79b56faadb72f27e7ed",
                 "shasum": ""
             },
             "require": {
@@ -1701,11 +1701,11 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-07-07T13:48:08+00:00"
+            "time": "2020-07-10T16:41:39+00:00"
         },
         {
             "name": "illuminate/testing",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/testing.git",
@@ -1757,7 +1757,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -3634,28 +3634,28 @@
         },
         {
             "name": "react/dns",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "a214d90c2884dac18d0cac6176202f247b66d762"
+                "reference": "89d83794e959ef3e0f1ab792f070b0157de1abf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/a214d90c2884dac18d0cac6176202f247b66d762",
-                "reference": "a214d90c2884dac18d0cac6176202f247b66d762",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/89d83794e959ef3e0f1ab792f070b0157de1abf2",
+                "reference": "89d83794e959ef3e0f1ab792f070b0157de1abf2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
                 "react/cache": "^1.0 || ^0.6 || ^0.5",
                 "react/event-loop": "^1.0 || ^0.5",
-                "react/promise": "^2.7 || ^1.2.1",
+                "react/promise": "^3.0 || ^2.7 || ^1.2.1",
                 "react/promise-timer": "^1.2"
             },
             "require-dev": {
                 "clue/block-react": "^1.2",
-                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.0 || ^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -3674,7 +3674,7 @@
                 "dns-resolver",
                 "reactphp"
             ],
-            "time": "2019-08-15T09:06:31+00:00"
+            "time": "2020-07-10T12:12:50+00:00"
         },
         {
             "name": "react/event-loop",
@@ -3923,25 +3923,25 @@
         },
         {
             "name": "react/promise-timer",
-            "version": "v1.5.1",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise-timer.git",
-                "reference": "35fb910604fd86b00023fc5cda477c8074ad0abc"
+                "reference": "daee9baf6ef30c43ea4c86399f828bb5f558f6e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/35fb910604fd86b00023fc5cda477c8074ad0abc",
-                "reference": "35fb910604fd86b00023fc5cda477c8074ad0abc",
+                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/daee9baf6ef30c43ea4c86399f828bb5f558f6e6",
+                "reference": "daee9baf6ef30c43ea4c86399f828bb5f558f6e6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3",
                 "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
-                "react/promise": "^2.7.0 || ^1.2.1"
+                "react/promise": "^3.0 || ^2.7.0 || ^1.2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.0 || ^5.7 || ^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -3972,7 +3972,7 @@
                 "timeout",
                 "timer"
             ],
-            "time": "2019-03-27T18:10:32+00:00"
+            "time": "2020-07-10T12:18:06+00:00"
         },
         {
             "name": "react/socket",
@@ -5885,16 +5885,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "85e21ee4c4118fd0cb85e9f2c778dfcb781acd1b"
+                "reference": "9f277171e296a3c8629c04ac93ec95ff0f208ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/85e21ee4c4118fd0cb85e9f2c778dfcb781acd1b",
-                "reference": "85e21ee4c4118fd0cb85e9f2c778dfcb781acd1b",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/9f277171e296a3c8629c04ac93ec95ff0f208ccb",
+                "reference": "9f277171e296a3c8629c04ac93ec95ff0f208ccb",
                 "shasum": ""
             },
             "require": {
@@ -6014,7 +6014,7 @@
                 "MIT"
             ],
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "time": "2020-06-11T08:39:56+00:00"
+            "time": "2020-07-10T09:34:29+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
