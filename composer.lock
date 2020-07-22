@@ -935,7 +935,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -986,7 +986,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1034,7 +1034,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -1085,7 +1085,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1129,7 +1129,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -1183,7 +1183,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1230,16 +1230,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "42792e136e3a77312fb89df29373d6221a1f794e"
+                "reference": "37a76782aef1bb83680143c4283b1bf3db751e96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/42792e136e3a77312fb89df29373d6221a1f794e",
-                "reference": "42792e136e3a77312fb89df29373d6221a1f794e",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/37a76782aef1bb83680143c4283b1bf3db751e96",
+                "reference": "37a76782aef1bb83680143c4283b1bf3db751e96",
                 "shasum": ""
             },
             "require": {
@@ -1270,20 +1270,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2020-05-13T20:55:30+00:00"
+            "time": "2020-07-19T12:38:38+00:00"
         },
         {
             "name": "illuminate/database",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "76417a529662428a5e77750fb04d6ec3bba14e5d"
+                "reference": "cd4c0057ea0c4cd2cb4e075b4bd2cc762cf7c9d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/76417a529662428a5e77750fb04d6ec3bba14e5d",
-                "reference": "76417a529662428a5e77750fb04d6ec3bba14e5d",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/cd4c0057ea0c4cd2cb4e075b4bd2cc762cf7c9d9",
+                "reference": "cd4c0057ea0c4cd2cb4e075b4bd2cc762cf7c9d9",
                 "shasum": ""
             },
             "require": {
@@ -1332,11 +1332,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-07-13T13:27:32+00:00"
+            "time": "2020-07-17T14:34:11+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1381,16 +1381,16 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "5439630dab45cc8cb73c2669ead9252bae9e9db1"
+                "reference": "73082c13a2e544c80f55b669a781e01d0627eaab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/5439630dab45cc8cb73c2669ead9252bae9e9db1",
-                "reference": "5439630dab45cc8cb73c2669ead9252bae9e9db1",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/73082c13a2e544c80f55b669a781e01d0627eaab",
+                "reference": "73082c13a2e544c80f55b669a781e01d0627eaab",
                 "shasum": ""
             },
             "require": {
@@ -1432,11 +1432,11 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "https://laravel.com",
-            "time": "2020-06-24T18:16:33+00:00"
+            "time": "2020-07-21T13:53:52+00:00"
         },
         {
             "name": "illuminate/mail",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -1491,7 +1491,7 @@
         },
         {
             "name": "illuminate/notifications",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
@@ -1544,7 +1544,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1588,16 +1588,16 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
-                "reference": "de150712f516a036419ddcd7e3918d4c16886158"
+                "reference": "9b8acacf51a4ae8487eb7470edcd6031ca161033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/queue/zipball/de150712f516a036419ddcd7e3918d4c16886158",
-                "reference": "de150712f516a036419ddcd7e3918d4c16886158",
+                "url": "https://api.github.com/repos/illuminate/queue/zipball/9b8acacf51a4ae8487eb7470edcd6031ca161033",
+                "reference": "9b8acacf51a4ae8487eb7470edcd6031ca161033",
                 "shasum": ""
             },
             "require": {
@@ -1644,20 +1644,20 @@
             ],
             "description": "The Illuminate Queue package.",
             "homepage": "https://laravel.com",
-            "time": "2020-05-29T09:44:42+00:00"
+            "time": "2020-07-19T12:38:38+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "8e8955392577c55c79c89444ac03100542aa58e6"
+                "reference": "79bbfdf2cd58a3ca2daa015e523a8e0351cccd01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/8e8955392577c55c79c89444ac03100542aa58e6",
-                "reference": "8e8955392577c55c79c89444ac03100542aa58e6",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/79bbfdf2cd58a3ca2daa015e523a8e0351cccd01",
+                "reference": "79bbfdf2cd58a3ca2daa015e523a8e0351cccd01",
                 "shasum": ""
             },
             "require": {
@@ -1706,20 +1706,20 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-07-14T02:10:30+00:00"
+            "time": "2020-07-17T14:27:04+00:00"
         },
         {
             "name": "illuminate/testing",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/testing.git",
-                "reference": "444fd70a3c56e5daeee1e3b4c8bf9bf8fa28b2c5"
+                "reference": "3a7b3cbcf8ee96e9d5ca0d7cd3f991f8d375b2e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/testing/zipball/444fd70a3c56e5daeee1e3b4c8bf9bf8fa28b2c5",
-                "reference": "444fd70a3c56e5daeee1e3b4c8bf9bf8fa28b2c5",
+                "url": "https://api.github.com/repos/illuminate/testing/zipball/3a7b3cbcf8ee96e9d5ca0d7cd3f991f8d375b2e4",
+                "reference": "3a7b3cbcf8ee96e9d5ca0d7cd3f991f8d375b2e4",
                 "shasum": ""
             },
             "require": {
@@ -1758,20 +1758,20 @@
             ],
             "description": "The Illuminate Testing package.",
             "homepage": "https://laravel.com",
-            "time": "2020-05-29T09:44:42+00:00"
+            "time": "2020-07-17T13:18:51+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "v7.20.0",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "1e6c34eb001e453ea5cd12c338b07ddff152141e"
+                "reference": "ac9f95e4261383ab691c3054a54133ec9a491fa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/1e6c34eb001e453ea5cd12c338b07ddff152141e",
-                "reference": "1e6c34eb001e453ea5cd12c338b07ddff152141e",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/ac9f95e4261383ab691c3054a54133ec9a491fa6",
+                "reference": "ac9f95e4261383ab691c3054a54133ec9a491fa6",
                 "shasum": ""
             },
             "require": {
@@ -1806,7 +1806,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "https://laravel.com",
-            "time": "2020-06-29T15:29:16+00:00"
+            "time": "2020-07-20T03:25:06+00:00"
         },
         {
             "name": "indigophp/hash-compat",
@@ -2105,16 +2105,16 @@
         },
         {
             "name": "laravel-notification-channels/discord",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-notification-channels/discord.git",
-                "reference": "68fa3fe51d48d257ed9775087c916d769c5f09fe"
+                "reference": "3b245aeb3f39e5f491fae075707bcafa5f6f109e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-notification-channels/discord/zipball/68fa3fe51d48d257ed9775087c916d769c5f09fe",
-                "reference": "68fa3fe51d48d257ed9775087c916d769c5f09fe",
+                "url": "https://api.github.com/repos/laravel-notification-channels/discord/zipball/3b245aeb3f39e5f491fae075707bcafa5f6f109e",
+                "reference": "3b245aeb3f39e5f491fae075707bcafa5f6f109e",
                 "shasum": ""
             },
             "require": {
@@ -2165,20 +2165,20 @@
                 "laravel",
                 "notification"
             ],
-            "time": "2020-03-07T00:25:15+00:00"
+            "time": "2020-07-20T23:30:02+00:00"
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v7.19.1",
+            "version": "v7.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "a9bdbbb249b4a4c8031311f57fd6a6770f3531ea"
+                "reference": "dc07ab72a9d774a0be6abe57e61d54fe48048cc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/a9bdbbb249b4a4c8031311f57fd6a6770f3531ea",
-                "reference": "a9bdbbb249b4a4c8031311f57fd6a6770f3531ea",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/dc07ab72a9d774a0be6abe57e61d54fe48048cc8",
+                "reference": "dc07ab72a9d774a0be6abe57e61d54fe48048cc8",
                 "shasum": ""
             },
             "require": {
@@ -2207,7 +2207,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-07-13T08:33:34+00:00"
+            "time": "2020-07-21T15:13:23+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -2482,21 +2482,21 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.4",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "3022efff205e2448b560c833c6fbbf91c3139168"
+                "reference": "38914429aac460e8e4616c8cb486ecb40ec90bb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/3022efff205e2448b560c833c6fbbf91c3139168",
-                "reference": "3022efff205e2448b560c833c6fbbf91c3139168",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/38914429aac460e8e4616c8cb486ecb40ec90bb1",
+                "reference": "38914429aac460e8e4616c8cb486ecb40ec90bb1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0"
+                "php": ">=7.2",
+                "psr/log": "^1.0.1"
             },
             "provide": {
                 "psr/log-implementation": "1.0.0"
@@ -2504,32 +2504,36 @@
             "require-dev": {
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
-                "graylog2/gelf-php": "~1.0",
+                "elasticsearch/elasticsearch": "^6.0",
+                "graylog2/gelf-php": "^1.4.2",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
                 "php-parallel-lint/php-parallel-lint": "^1.0",
-                "phpunit/phpunit": "~4.5",
+                "phpspec/prophecy": "^1.6.1",
+                "phpunit/phpunit": "^8.5",
+                "predis/predis": "^1.1",
+                "rollbar/rollbar": "^1.3",
                 "ruflin/elastica": ">=0.90 <3.0",
-                "sentry/sentry": "^0.13",
                 "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "ext-mbstring": "Allow to work properly with unicode symbols",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "sentry/sentry": "Allow sending log messages to a Sentry server"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2565,7 +2569,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-22T07:31:27+00:00"
+            "time": "2020-05-22T08:12:19+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -4079,25 +4083,25 @@
         },
         {
             "name": "restcord/restcord",
-            "version": "0.3.2",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/restcord/restcord.git",
-                "reference": "2e332138428a91fbcc70630c324aa5a449c11b01"
+                "reference": "1348e4d7fcd12709ef7492cd12564f446e831a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restcord/restcord/zipball/2e332138428a91fbcc70630c324aa5a449c11b01",
-                "reference": "2e332138428a91fbcc70630c324aa5a449c11b01",
+                "url": "https://api.github.com/repos/restcord/restcord/zipball/1348e4d7fcd12709ef7492cd12564f446e831a1c",
+                "reference": "1348e4d7fcd12709ef7492cd12564f446e831a1c",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
                 "guzzlehttp/guzzle-services": "^1.0",
-                "monolog/monolog": "^1.22",
+                "monolog/monolog": "^1.22|^2.0",
                 "netresearch/jsonmapper": "^1.4",
                 "php": "^5.6|^7.0",
-                "symfony/options-resolver": "^2.6|^3.0|^4.0"
+                "symfony/options-resolver": "^2.6|^3.0|^4.0|^5.0"
             },
             "require-dev": {
                 "beberlei/assert": "^2.7",
@@ -4125,20 +4129,20 @@
                 }
             ],
             "description": "REST Library for the Discord API",
-            "time": "2019-08-08T23:33:12+00:00"
+            "time": "2020-05-30T19:11:48+00:00"
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "5cf6ff5ebf338a2d538c40255f84064905918dea"
+                "reference": "5dbd833a345f63a344f02b745ece608deca0439d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/5cf6ff5ebf338a2d538c40255f84064905918dea",
-                "reference": "5cf6ff5ebf338a2d538c40255f84064905918dea",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/5dbd833a345f63a344f02b745ece608deca0439d",
+                "reference": "5dbd833a345f63a344f02b745ece608deca0439d",
                 "shasum": ""
             },
             "require": {
@@ -4146,7 +4150,7 @@
                 "laravel-discord/yasmin": "^0.8",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": "^7.2||^8.0",
-                "restcord/restcord": "^0.3.0"
+                "restcord/restcord": "^0.4.0"
             },
             "conflict": {
                 "cakephp/core": "*"
@@ -4187,7 +4191,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2020-04-27T10:28:46+00:00"
+            "time": "2020-07-21T07:13:24+00:00"
         },
         {
             "name": "ringcentral/psr7",
@@ -4470,6 +4474,70 @@
             "time": "2020-05-20T17:43:50+00:00"
         },
         {
+            "name": "symfony/deprecation-contracts",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5e20b83385a77593259c9f8beb2c43cd03b2ac14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5e20b83385a77593259c9f8beb2c43cd03b2ac14",
+                "reference": "5e20b83385a77593259c9f8beb2c43cd03b2ac14",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-06T08:49:21+00:00"
+        },
+        {
             "name": "symfony/error-handler",
             "version": "v5.1.2",
             "source": {
@@ -4605,25 +4673,27 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.4.10",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "73e1d0fe11ffceb7b7d4ca55b7381cd7ce0bac05"
+                "reference": "663f5dd5e14057d1954fe721f9709d35837f2447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/73e1d0fe11ffceb7b7d4ca55b7381cd7ce0bac05",
-                "reference": "73e1d0fe11ffceb7b7d4ca55b7381cd7ce0bac05",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/663f5dd5e14057d1954fe721f9709d35837f2447",
+                "reference": "663f5dd5e14057d1954fe721f9709d35837f2447",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-php80": "^1.15"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.4-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -4669,7 +4739,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-23T12:09:32+00:00"
+            "time": "2020-05-23T13:08:13+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
