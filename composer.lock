@@ -4041,16 +4041,16 @@
         },
         {
             "name": "react/socket",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "842dcd71df86671ee9491734035b3d2cf4a80ece"
+                "reference": "e2b96b23a13ca9b41ab343268dbce3f8ef4d524a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/842dcd71df86671ee9491734035b3d2cf4a80ece",
-                "reference": "842dcd71df86671ee9491734035b3d2cf4a80ece",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/e2b96b23a13ca9b41ab343268dbce3f8ef4d524a",
+                "reference": "e2b96b23a13ca9b41ab343268dbce3f8ef4d524a",
                 "shasum": ""
             },
             "require": {
@@ -4064,7 +4064,7 @@
             },
             "require-dev": {
                 "clue/block-react": "^1.2",
-                "phpunit/phpunit": "^9.0 || ^5.7 || ^4.8.35",
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35",
                 "react/promise-stream": "^1.2"
             },
             "type": "library",
@@ -4077,6 +4077,28 @@
             "license": [
                 "MIT"
             ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
+                }
+            ],
             "description": "Async, streaming plaintext TCP/IP and secure TLS socket server and client connections for ReactPHP",
             "keywords": [
                 "Connection",
@@ -4085,7 +4107,17 @@
                 "reactphp",
                 "stream"
             ],
-            "time": "2020-07-01T12:50:00+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-08-28T12:49:05+00:00"
         },
         {
             "name": "react/stream",
@@ -4185,20 +4217,20 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "5dbd833a345f63a344f02b745ece608deca0439d"
+                "reference": "f7264780894f3d9cfa4db6bcd1867adbe500f26b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/5dbd833a345f63a344f02b745ece608deca0439d",
-                "reference": "5dbd833a345f63a344f02b745ece608deca0439d",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/f7264780894f3d9cfa4db6bcd1867adbe500f26b",
+                "reference": "f7264780894f3d9cfa4db6bcd1867adbe500f26b",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "^6.0||^7.0",
+                "illuminate/support": "^6.0||^7.0||^8.0",
                 "laravel-discord/yasmin": "^0.8",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": "^7.2||^8.0",
@@ -4209,7 +4241,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^1.3",
-                "orchestra/testbench": "^4.0||^5.0",
+                "orchestra/testbench": "^4.0||^5.0||^6.0",
                 "phpunit/phpunit": "^8.0||^9.0"
             },
             "type": "library",
@@ -4243,7 +4275,7 @@
                 "discord",
                 "laravel"
             ],
-            "time": "2020-07-21T07:13:24+00:00"
+            "time": "2020-08-28T07:18:42+00:00"
         },
         {
             "name": "ringcentral/psr7",
