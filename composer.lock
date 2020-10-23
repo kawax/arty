@@ -2330,16 +2330,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v8.10.0",
+            "version": "v8.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "e7edc5af1563abf1c5a971f609ddaf05d267011f"
+                "reference": "48d1f1a912004fa21b9be73f65b087ab3921736b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/e7edc5af1563abf1c5a971f609ddaf05d267011f",
-                "reference": "e7edc5af1563abf1c5a971f609ddaf05d267011f",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/48d1f1a912004fa21b9be73f65b087ab3921736b",
+                "reference": "48d1f1a912004fa21b9be73f65b087ab3921736b",
                 "shasum": ""
             },
             "require": {
@@ -2368,7 +2368,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-10-13T15:39:00+00:00"
+            "time": "2020-10-21T13:03:43+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -2786,16 +2786,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.41.3",
+            "version": "2.41.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52"
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e148788eeae9b9b7b87996520358b86faad37b52",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/6571aec754a648ef476a8d8f57993f7bc965afe4",
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4",
                 "shasum": ""
             },
             "require": {
@@ -2871,7 +2871,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-12T20:36:09+00:00"
+            "time": "2020-10-22T07:28:05+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -6474,16 +6474,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "a6b795aeb367c90cc6ed88dadb4cdcac436377c2"
+                "reference": "72d9fee55e14e07a6283c9b3e28c09e85923a148"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/a6b795aeb367c90cc6ed88dadb4cdcac436377c2",
-                "reference": "a6b795aeb367c90cc6ed88dadb4cdcac436377c2",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/72d9fee55e14e07a6283c9b3e28c09e85923a148",
+                "reference": "72d9fee55e14e07a6283c9b3e28c09e85923a148",
                 "shasum": ""
             },
             "require": {
@@ -6605,7 +6605,7 @@
                 "MIT"
             ],
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "time": "2020-10-08T08:40:29+00:00"
+            "time": "2020-10-22T09:17:04+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
