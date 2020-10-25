@@ -17,7 +17,8 @@
     "illuminate/notifications": "^8.0",
     "illuminate/view": "^8.0",
     "laravel-zero/framework": "^8.0",
-    "revolution/discord-manager": "^1.4"
+    "revolution/discord-manager": "^1.4",
+    "revolution/laravel-namespaced-helpers": "^1.0"
   },
   "require-dev": {
     "mockery/mockery": "^1.4",

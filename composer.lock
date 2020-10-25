@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "179f5dc836c1b7ec39fde392c502e1c2",
+    "content-hash": "85069d89514e6d7b51e8136d63d40480",
     "packages": [
         {
             "name": "brick/math",
@@ -4932,6 +4932,54 @@
                 "source": "https://github.com/kawax/discord-manager/tree/1.5.1"
             },
             "time": "2020-10-20T09:19:09+00:00"
+        },
+        {
+            "name": "revolution/laravel-namespaced-helpers",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kawax/laravel-namespaced-helpers.git",
+                "reference": "2b3534dfccbcf5930367474b703c84bc95534859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kawax/laravel-namespaced-helpers/zipball/2b3534dfccbcf5930367474b703c84bc95534859",
+                "reference": "2b3534dfccbcf5930367474b703c84bc95534859",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0||^7.0||^8.0",
+                "php": "^7.2||^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0||^5.0||^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kawax",
+                    "email": "kawaxbiz@gmail.com"
+                }
+            ],
+            "description": "Laravel Namespaced helpers",
+            "keywords": [
+                "helpers",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/kawax/laravel-namespaced-helpers/issues",
+                "source": "https://github.com/kawax/laravel-namespaced-helpers/tree/1.0.0"
+            },
+            "time": "2020-10-25T23:04:15+00:00"
         },
         {
             "name": "ringcentral/psr7",
