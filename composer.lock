@@ -430,16 +430,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.22",
+            "version": "2.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5"
+                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
-                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
+                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
                 "shasum": ""
             },
             "require": {
@@ -486,9 +486,9 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/2.1.22"
+                "source": "https://github.com/egulias/EmailValidator/tree/2.1.23"
             },
-            "time": "2020-09-26T15:48:38+00:00"
+            "time": "2020-10-31T20:37:35+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -2371,16 +2371,16 @@
         },
         {
             "name": "laravel-discord/yasmin",
-            "version": "v1.0.0",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kawax/Yasmin.git",
-                "reference": "a6d7a46de0844229f981ec48ac078fde9a02d902"
+                "url": "https://github.com/laravel-discord/Yasmin.git",
+                "reference": "b8149ef01bc2ad13f91fdaff683ea542b82d47fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/Yasmin/zipball/a6d7a46de0844229f981ec48ac078fde9a02d902",
-                "reference": "a6d7a46de0844229f981ec48ac078fde9a02d902",
+                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/b8149ef01bc2ad13f91fdaff683ea542b82d47fe",
+                "reference": "b8149ef01bc2ad13f91fdaff683ea542b82d47fe",
                 "shasum": ""
             },
             "require": {
@@ -2422,9 +2422,9 @@
             ],
             "description": "Yasmin is a Discord API library for PHP.",
             "support": {
-                "source": "https://github.com/kawax/Yasmin/tree/v1.0.0"
+                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.0.5"
             },
-            "time": "2020-10-31T03:19:31+00:00"
+            "time": "2020-10-31T14:19:01+00:00"
         },
         {
             "name": "laravel-notification-channels/discord",
@@ -2632,16 +2632,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.5.6",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "a56e91e0fa1f6d0049153a9c34f63488f6b7ce61"
+                "reference": "11df9b36fd4f1d2b727a73bf14931d81373b9a54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/a56e91e0fa1f6d0049153a9c34f63488f6b7ce61",
-                "reference": "a56e91e0fa1f6d0049153a9c34f63488f6b7ce61",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/11df9b36fd4f1d2b727a73bf14931d81373b9a54",
+                "reference": "11df9b36fd4f1d2b727a73bf14931d81373b9a54",
                 "shasum": ""
             },
             "require": {
@@ -2729,7 +2729,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-17T21:33:03+00:00"
+            "time": "2020-10-31T13:49:32+00:00"
         },
         {
             "name": "league/flysystem",
