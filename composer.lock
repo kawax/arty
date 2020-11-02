@@ -592,16 +592,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "2ec31f3adc54c71a59c5e3c2143d7a0e2f8899f8"
+                "reference": "307fb34a5ab697461ec4c9db865b20ff2fd40771"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/2ec31f3adc54c71a59c5e3c2143d7a0e2f8899f8",
-                "reference": "2ec31f3adc54c71a59c5e3c2143d7a0e2f8899f8",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/307fb34a5ab697461ec4c9db865b20ff2fd40771",
+                "reference": "307fb34a5ab697461ec4c9db865b20ff2fd40771",
                 "shasum": ""
             },
             "require": {
@@ -651,9 +651,9 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.9.0"
+                "source": "https://github.com/filp/whoops/tree/2.9.1"
             },
-            "time": "2020-10-20T12:00:00+00:00"
+            "time": "2020-11-01T12:00:00+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -2371,16 +2371,16 @@
         },
         {
             "name": "laravel-discord/yasmin",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-discord/Yasmin.git",
-                "reference": "b8149ef01bc2ad13f91fdaff683ea542b82d47fe"
+                "reference": "540d171a6dc75b362143f872c4f069f7efc47344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/b8149ef01bc2ad13f91fdaff683ea542b82d47fe",
-                "reference": "b8149ef01bc2ad13f91fdaff683ea542b82d47fe",
+                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/540d171a6dc75b362143f872c4f069f7efc47344",
+                "reference": "540d171a6dc75b362143f872c4f069f7efc47344",
                 "shasum": ""
             },
             "require": {
@@ -2422,9 +2422,9 @@
             ],
             "description": "Yasmin is a Discord API library for PHP.",
             "support": {
-                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.0.5"
+                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.0.6"
             },
-            "time": "2020-10-31T14:19:01+00:00"
+            "time": "2020-11-01T03:04:19+00:00"
         },
         {
             "name": "laravel-notification-channels/discord",
