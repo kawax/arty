@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85069d89514e6d7b51e8136d63d40480",
+    "content-hash": "d659724e46a4d3505aa5139b48cf4a38",
     "packages": [
         {
             "name": "brick/math",
@@ -2882,6 +2882,53 @@
             "time": "2020-10-18T11:50:25+00:00"
         },
         {
+            "name": "mollie/polyfill-libsodium",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mollie/polyfill-libsodium.git",
+                "reference": "60351707e048080a2218a97296f88733f050f183"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mollie/polyfill-libsodium/zipball/60351707e048080a2218a97296f88733f050f183",
+                "reference": "60351707e048080a2218a97296f88733f050f183",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "suggest": {
+                "ext-sodium": "The new sodium php extension"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "./bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martijn Smit",
+                    "email": "smit@mollie.com"
+                },
+                {
+                    "name": "Willem Stuursma-Ruwen",
+                    "email": "willem@mollie.com"
+                }
+            ],
+            "description": "A polyfill package to transition from the libsodium php extension to the sodium extension. Which is included in PHP 7.2",
+            "support": {
+                "issues": "https://github.com/mollie/polyfill-libsodium/issues",
+                "source": "https://github.com/mollie/polyfill-libsodium/tree/master"
+            },
+            "time": "2018-01-22T16:27:22+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.1.1",
             "source": {
@@ -4233,6 +4280,65 @@
             "time": "2019-02-15T13:48:16+00:00"
         },
         {
+            "name": "react/datagram",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/datagram.git",
+                "reference": "e4c5bf8daf44630f0a938f40fe2104b2b76ad2ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/datagram/zipball/e4c5bf8daf44630f0a938f40fe2104b2b76ad2ff",
+                "reference": "e4c5bf8daf44630f0a938f40fe2104b2b76ad2ff",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3",
+                "react/dns": "^1.0 || ^0.4.13",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
+                "react/promise": "~2.1|~1.2"
+            },
+            "require-dev": {
+                "clue/block-react": "~1.0",
+                "phpunit/phpunit": "^5.0 || ^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Datagram\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@lueck.tv"
+                }
+            ],
+            "description": "Event-driven UDP datagram socket client and server for ReactPHP",
+            "homepage": "https://github.com/reactphp/datagram",
+            "keywords": [
+                "Socket",
+                "async",
+                "client",
+                "datagram",
+                "dgram",
+                "reactphp",
+                "server",
+                "udp"
+            ],
+            "support": {
+                "issues": "https://github.com/reactphp/datagram/issues",
+                "source": "https://github.com/reactphp/datagram/tree/v1.5.0"
+            },
+            "time": "2019-07-10T10:04:15+00:00"
+        },
+        {
             "name": "react/dns",
             "version": "v1.4.0",
             "source": {
@@ -4512,6 +4618,50 @@
                 }
             ],
             "time": "2020-09-11T11:01:51+00:00"
+        },
+        {
+            "name": "react/partial",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/friends-of-reactphp/partial.git",
+                "reference": "e06f034747561977670607888e0a99fd282308ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/friends-of-reactphp/partial/zipball/e06f034747561977670607888e0a99fd282308ab",
+                "reference": "e06f034747561977670607888e0a99fd282308ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Partial\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Partial function application.",
+            "keywords": [
+                "functional-programming",
+                "partial"
+            ],
+            "support": {
+                "issues": "https://github.com/friends-of-reactphp/partial/issues",
+                "source": "https://github.com/friends-of-reactphp/partial/tree/v3.0.0"
+            },
+            "time": "2017-10-01T13:27:11+00:00"
         },
         {
             "name": "react/promise",
@@ -4870,16 +5020,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "1.6.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "b25a1a14db9645f957e226823d69170725c1e627"
+                "reference": "4353c68c3448e30976408ea412d1f1eea2e00c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/b25a1a14db9645f957e226823d69170725c1e627",
-                "reference": "b25a1a14db9645f957e226823d69170725c1e627",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/4353c68c3448e30976408ea412d1f1eea2e00c2a",
+                "reference": "4353c68c3448e30976408ea412d1f1eea2e00c2a",
                 "shasum": ""
             },
             "require": {
@@ -4887,7 +5037,8 @@
                 "laravel-discord/yasmin": "^1.0",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": "^7.3||^8.0",
-                "restcord/restcord": "^0.4.0"
+                "restcord/restcord": "^0.4.0",
+                "team-reflex/discord-php": "^5.0"
             },
             "conflict": {
                 "cakephp/core": "*"
@@ -4930,9 +5081,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/1.6.0"
+                "source": "https://github.com/kawax/discord-manager/tree/2.0.0"
             },
-            "time": "2020-10-31T03:32:07+00:00"
+            "time": "2020-11-03T12:20:55+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
@@ -6740,6 +6891,74 @@
             "time": "2020-10-27T10:11:13+00:00"
         },
         {
+            "name": "team-reflex/discord-php",
+            "version": "v5.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/teamreflex/DiscordPHP.git",
+                "reference": "e902548dfe1fdc8869573a757defe87c87fa7931"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/teamreflex/DiscordPHP/zipball/e902548dfe1fdc8869573a757defe87c87fa7931",
+                "reference": "e902548dfe1fdc8869573a757defe87c87fa7931",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-zlib": "*",
+                "illuminate/support": "^4.0|^5.0|^6.0|^7.0|^8.0",
+                "mollie/polyfill-libsodium": "^1.1",
+                "monolog/monolog": "^2.1",
+                "nesbot/carbon": "^2.38",
+                "php": "^7.2",
+                "ratchet/pawl": "0.3.*",
+                "react/datagram": "1.5.*",
+                "react/http": "^1.1",
+                "react/partial": "^3.0",
+                "symfony/options-resolver": "^5.1.3",
+                "trafficcophp/bytebuffer": "^0.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "symfony/var-dumper": "*"
+            },
+            "suggest": {
+                "ext-event": "For a faster, and more performant loop",
+                "ext-libev": "For a faster, and more performant loop",
+                "ext-uv": "For a faster, and more performant loop. PHP >=7 only. Preferred."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Discord/functions.php"
+                ],
+                "psr-4": {
+                    "Discord\\": "src/Discord"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Cole",
+                    "email": "david@team-reflex.com"
+                },
+                {
+                    "name": "Aaron Scherer",
+                    "email": "aequasi@gmail.com"
+                }
+            ],
+            "description": "An unofficial API to interact with the voice and text service Discord.",
+            "support": {
+                "issues": "https://github.com/teamreflex/DiscordPHP/issues",
+                "source": "https://github.com/teamreflex/DiscordPHP/tree/v5.0.11"
+            },
+            "time": "2020-10-21T20:16:02+00:00"
+        },
+        {
             "name": "textalk/websocket",
             "version": "1.4.1",
             "source": {
@@ -7031,6 +7250,54 @@
                 "source": "https://github.com/tivie/php-os-detector/tree/master"
             },
             "time": "2017-10-21T03:33:59+00:00"
+        },
+        {
+            "name": "trafficcophp/bytebuffer",
+            "version": "v0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nesQuick/ByteBuffer.git",
+                "reference": "e94e5c87c41bc79c0f738b0fa89bad11d27ae0b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nesQuick/ByteBuffer/zipball/e94e5c87c41bc79c0f738b0fa89bad11d27ae0b4",
+                "reference": "e94e5c87c41bc79c0f738b0fa89bad11d27ae0b4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "TrafficCophp": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ole 'nesQuick' Michaelis",
+                    "email": "ole.michaelis@googlemail.com",
+                    "homepage": "http://www.codestars.eu"
+                }
+            ],
+            "description": "Node.js inspired byte stream buffer for PHP.",
+            "keywords": [
+                "Buffer",
+                "Bytehandling",
+                "Socket",
+                "binary data",
+                "library",
+                "pack",
+                "stream",
+                "wrapper"
+            ],
+            "support": {
+                "issues": "https://github.com/nesQuick/ByteBuffer/issues",
+                "source": "https://github.com/nesQuick/ByteBuffer/tree/master"
+            },
+            "time": "2016-01-13T22:50:58+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

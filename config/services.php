@@ -1,5 +1,7 @@
 <?php
 
+use Discord\WebSockets\Event;
+use Revolution\DiscordManager\Support\Intents;
 use function Revolution\Illuminate\Support\env;
 
 return [
@@ -17,19 +19,25 @@ return [
     */
 
     'discord' => [
-        'prefix'    => '/',
-        'not_found' => 'Command Not Found!',
-        'path'      => [
+        'prefix'      => '/',
+        'not_found'   => 'Command Not Found!',
+        'path'        => [
             'commands' => app_path('Discord/Commands'),
             'directs'  => app_path('Discord/Directs'),
         ],
-        'token'     => env('DISCORD_BOT_TOKEN'),
-        'channel'   => env('DISCORD_CHANNEL'),
-        'bot'       => env('DISCORD_BOT'),
-        'yasmin'    => [
+        'token'       => env('DISCORD_BOT_TOKEN'),
+        'channel'     => env('DISCORD_CHANNEL'),
+        'bot'         => env('DISCORD_BOT'),
+        'yasmin'      => [
             'ws.disabledEvents' => [
                 'TYPING_START',
             ],
+        ],
+        'discord-php' => [
+            'disabledEvents' => [
+                Event::TYPING_START,
+            ],
+            'intents'        => array_sum(Intents::default()),
         ],
     ],
 ];

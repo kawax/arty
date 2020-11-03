@@ -2,7 +2,7 @@
 
 namespace App\Discord\Commands;
 
-use CharlotteDunois\Yasmin\Models\Message;
+use Discord\Parts\Channel\Message;
 
 class TestCommand
 {
@@ -12,12 +12,12 @@ class TestCommand
     public $command = 'test';
 
     /**
-     * @param Message $message
+     * @param  Message  $message
      *
-     * @return string
+     * @return void
      */
     public function __invoke(Message $message)
     {
-        return 'test! '.$message->author->username;
+        $message->reply('test! '.$message->author->username);
     }
 }

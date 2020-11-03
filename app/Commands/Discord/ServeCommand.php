@@ -2,12 +2,12 @@
 
 namespace App\Commands\Discord;
 
-use CharlotteDunois\Yasmin\Interfaces\DMChannelInterface;
-use CharlotteDunois\Yasmin\Interfaces\TextChannelInterface;
-use CharlotteDunois\Yasmin\Models\Message;
+use Discord\Discord;
+use Discord\Parts\Channel\Message;
 use LaravelZero\Framework\Commands\Command;
+use Revolution\DiscordManager\Exceptions\CommandNotFountException;
 use Revolution\DiscordManager\Facades\DiscordManager;
-use Revolution\DiscordManager\Facades\Yasmin;
+use Revolution\DiscordManager\Facades\DiscordPHP;
 
 class ServeCommand extends Command
 {
@@ -42,71 +42,28 @@ class ServeCommand extends Command
      */
     public function handle()
     {
-        Yasmin::on('error', function ($error) {
+        DiscordPHP::on('error', function ($error) {
             $this->error($error);
         });
 
-        Yasmin::on('ready', function () {
-            $this->info('Logged in as '.Yasmin::user()->tag.' created on '.Yasmin::user()->createdAt->format('d.m.Y H:i:s'));
-        });
+        DiscordPHP::on('ready', function (Discord $discord) {
+            $this->info('Logged in as '.$discord->user->username);
 
-        Yasmin::on('message', function (Message $message) {
-            $this->line('Received Message from '.$message->author->tag.' in '.($message->channel instanceof TextChannelInterface ? 'channel #'.$message->channel->name : 'DM').' with '.$message->attachments->count().' attachment(s) and '.count($message->embeds).' embed(s)');
+            $discord->on('message', function (Message $message) {
+                $this->info("Recieved a message from {$message->author->username}: {$message->content}");
 
-            if ($message->author->bot) {
-                return;
-            }
-
-            try {
-                if ($message->channel instanceof TextChannelInterface) {
-                    $this->channel($message);
+                try {
+                    if ($message->channel->is_private) {
+                        DiscordManager::direct($message);
+                    } elseif ($message->mentions->has(config('services.discord.bot'))) {
+                        DiscordManager::command($message);
+                    }
+                } catch (CommandNotFountException $e) {
+                    $message->reply($e->getMessage());
                 }
-
-                if ($message->channel instanceof DMChannelInterface) {
-                    $this->direct($message);
-                }
-            } catch (\Exception $error) {
-                $this->error($error->getMessage());
-            }
+            });
         });
 
-        Yasmin::login(config('services.discord.token'));
-        Yasmin::getLoop()->run();
-    }
-
-    /**
-     * @param Message $message
-     */
-    protected function channel(Message $message)
-    {
-        if (! $message->mentions->members->has(config('services.discord.bot'))) {
-            return;
-        }
-
-        $reply = DiscordManager::command($message);
-
-        if (blank($reply)) {
-            return;
-        }
-
-        $message->reply($reply)->done(null, function ($error) {
-            $this->error($error);
-        });
-    }
-
-    /**
-     * @param Message $message
-     */
-    protected function direct(Message $message)
-    {
-        $reply = DiscordManager::direct($message);
-
-        if (blank($reply)) {
-            return;
-        }
-
-        $message->reply($reply)->done(null, function ($error) {
-            $this->error($error);
-        });
+        DiscordPHP::run();
     }
 }
