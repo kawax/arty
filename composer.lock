@@ -2371,16 +2371,16 @@
         },
         {
             "name": "laravel-discord/yasmin",
-            "version": "v1.0.6",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-discord/Yasmin.git",
-                "reference": "540d171a6dc75b362143f872c4f069f7efc47344"
+                "reference": "9119d6b59d34a96df8fd9c1f31a3a091fa491bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/540d171a6dc75b362143f872c4f069f7efc47344",
-                "reference": "540d171a6dc75b362143f872c4f069f7efc47344",
+                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/9119d6b59d34a96df8fd9c1f31a3a091fa491bf5",
+                "reference": "9119d6b59d34a96df8fd9c1f31a3a091fa491bf5",
                 "shasum": ""
             },
             "require": {
@@ -2422,9 +2422,10 @@
             ],
             "description": "Yasmin is a Discord API library for PHP.",
             "support": {
-                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.0.6"
+                "issues": "https://github.com/laravel-discord/Yasmin/issues",
+                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.1.0"
             },
-            "time": "2020-11-01T03:04:19+00:00"
+            "time": "2020-11-04T11:59:09+00:00"
         },
         {
             "name": "laravel-notification-channels/discord",
