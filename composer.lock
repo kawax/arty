@@ -2497,20 +2497,20 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v8.12.3",
+            "version": "v8.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "b12ce2d6296eec8ee76c779e0384228f690c008e"
+                "reference": "74bb373904923e8c99f40944f6c1b63e2bbc94a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/b12ce2d6296eec8ee76c779e0384228f690c008e",
-                "reference": "b12ce2d6296eec8ee76c779e0384228f690c008e",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/74bb373904923e8c99f40944f6c1b63e2bbc94a7",
+                "reference": "74bb373904923e8c99f40944f6c1b63e2bbc94a7",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3"
+                "php": "^7.3|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2536,9 +2536,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel-zero/foundation/tree/v8.12.3"
+                "source": "https://github.com/laravel-zero/foundation/tree/v8.13.0"
             },
-            "time": "2020-10-30T22:54:07+00:00"
+            "time": "2020-11-06T15:37:41+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -3449,16 +3449,16 @@
         },
         {
             "name": "opis/closure",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opis/closure.git",
-                "reference": "c547f8262a5fa9ff507bd06cc394067b83a75085"
+                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/c547f8262a5fa9ff507bd06cc394067b83a75085",
-                "reference": "c547f8262a5fa9ff507bd06cc394067b83a75085",
+                "url": "https://api.github.com/repos/opis/closure/zipball/943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
+                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
                 "shasum": ""
             },
             "require": {
@@ -3508,9 +3508,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opis/closure/issues",
-                "source": "https://github.com/opis/closure/tree/3.6.0"
+                "source": "https://github.com/opis/closure/tree/3.6.1"
             },
-            "time": "2020-10-11T21:42:15+00:00"
+            "time": "2020-11-07T02:01:34+00:00"
         },
         {
             "name": "paragonie/random_compat",
