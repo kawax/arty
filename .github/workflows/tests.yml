@@ -28,6 +28,7 @@ jobs:
         uses: paambaati/codeclimate-action@v2.7.4
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
         with:
           coverageCommand: vendor/bin/phpunit
           coverageLocations: build/logs/clover.xml:clover
