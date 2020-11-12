@@ -2492,16 +2492,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v8.13.0",
+            "version": "v8.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "74bb373904923e8c99f40944f6c1b63e2bbc94a7"
+                "reference": "0faa644d84c0c058743aa1c7b687ebc491e3d004"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/74bb373904923e8c99f40944f6c1b63e2bbc94a7",
-                "reference": "74bb373904923e8c99f40944f6c1b63e2bbc94a7",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/0faa644d84c0c058743aa1c7b687ebc491e3d004",
+                "reference": "0faa644d84c0c058743aa1c7b687ebc491e3d004",
                 "shasum": ""
             },
             "require": {
@@ -2531,9 +2531,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel-zero/foundation/tree/v8.13.0"
+                "source": "https://github.com/laravel-zero/foundation/tree/v8.14.0"
             },
-            "time": "2020-11-06T15:37:41+00:00"
+            "time": "2020-11-11T09:13:49+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -7377,16 +7377,16 @@
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.5.4",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "87dc337d4200b32717dd3849fea846319e897658"
+                "reference": "80953678b19901e5165c56752d087fc11526017c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/87dc337d4200b32717dd3849fea846319e897658",
-                "reference": "87dc337d4200b32717dd3849fea846319e897658",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/80953678b19901e5165c56752d087fc11526017c",
+                "reference": "80953678b19901e5165c56752d087fc11526017c",
                 "shasum": ""
             },
             "require": {
@@ -7423,7 +7423,7 @@
             ],
             "support": {
                 "issues": "https://github.com/voku/portable-ascii/issues",
-                "source": "https://github.com/voku/portable-ascii/tree/1.5.4"
+                "source": "https://github.com/voku/portable-ascii/tree/1.5.6"
             },
             "funding": [
                 {
@@ -7447,7 +7447,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-08T21:15:15+00:00"
+            "time": "2020-11-12T00:07:28+00:00"
         },
         {
             "name": "wyrihaximus/cpu-core-detector",
