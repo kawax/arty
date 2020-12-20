@@ -2375,16 +2375,16 @@
         },
         {
             "name": "laravel-discord/yasmin",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-discord/Yasmin.git",
-                "reference": "9119d6b59d34a96df8fd9c1f31a3a091fa491bf5"
+                "reference": "f9e06206e1b32faca3fbb8980e505df36c948d31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/9119d6b59d34a96df8fd9c1f31a3a091fa491bf5",
-                "reference": "9119d6b59d34a96df8fd9c1f31a3a091fa491bf5",
+                "url": "https://api.github.com/repos/laravel-discord/Yasmin/zipball/f9e06206e1b32faca3fbb8980e505df36c948d31",
+                "reference": "f9e06206e1b32faca3fbb8980e505df36c948d31",
                 "shasum": ""
             },
             "require": {
@@ -2427,9 +2427,9 @@
             "description": "Yasmin is a Discord API library for PHP.",
             "support": {
                 "issues": "https://github.com/laravel-discord/Yasmin/issues",
-                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.1.0"
+                "source": "https://github.com/laravel-discord/Yasmin/tree/v1.2.0"
             },
-            "time": "2020-11-04T11:59:09+00:00"
+            "time": "2020-12-19T12:39:12+00:00"
         },
         {
             "name": "laravel-notification-channels/discord",
@@ -3031,16 +3031,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.42.0",
+            "version": "2.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d0463779663437392fe42ff339ebc0213bd55498"
+                "reference": "d32c57d8389113742f4a88725a170236470012e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d0463779663437392fe42ff339ebc0213bd55498",
-                "reference": "d0463779663437392fe42ff339ebc0213bd55498",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d32c57d8389113742f4a88725a170236470012e2",
+                "reference": "d32c57d8389113742f4a88725a170236470012e2",
                 "shasum": ""
             },
             "require": {
@@ -3120,7 +3120,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-28T14:25:28+00:00"
+            "time": "2020-12-17T20:55:32+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -8471,16 +8471,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.12.1",
+            "version": "1.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "8ce87516be71aae9b956f81906aaf0338e0d8a2d"
+                "reference": "245710e971a030f42e08f4912863805570f23d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/8ce87516be71aae9b956f81906aaf0338e0d8a2d",
-                "reference": "8ce87516be71aae9b956f81906aaf0338e0d8a2d",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/245710e971a030f42e08f4912863805570f23d39",
+                "reference": "245710e971a030f42e08f4912863805570f23d39",
                 "shasum": ""
             },
             "require": {
@@ -8492,7 +8492,7 @@
             },
             "require-dev": {
                 "phpspec/phpspec": "^6.0",
-                "phpunit/phpunit": "^8.0 || ^9.0 <9.3"
+                "phpunit/phpunit": "^8.0 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -8532,9 +8532,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpspec/prophecy/issues",
-                "source": "https://github.com/phpspec/prophecy/tree/1.12.1"
+                "source": "https://github.com/phpspec/prophecy/tree/1.12.2"
             },
-            "time": "2020-09-29T09:10:42+00:00"
+            "time": "2020-12-19T10:15:11+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
