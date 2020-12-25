@@ -4972,16 +4972,16 @@
         },
         {
             "name": "restcord/restcord",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/restcord/restcord.git",
-                "reference": "ace3cd8f91df66c3f994791dc57ecae37151d029"
+                "reference": "e79722fc74b15773a8b58237f678d004038f3529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restcord/restcord/zipball/ace3cd8f91df66c3f994791dc57ecae37151d029",
-                "reference": "ace3cd8f91df66c3f994791dc57ecae37151d029",
+                "url": "https://api.github.com/repos/restcord/restcord/zipball/e79722fc74b15773a8b58237f678d004038f3529",
+                "reference": "e79722fc74b15773a8b58237f678d004038f3529",
                 "shasum": ""
             },
             "require": {
@@ -4989,13 +4989,13 @@
                 "guzzlehttp/guzzle-services": "^1.0",
                 "monolog/monolog": "^1.22|^2.0",
                 "netresearch/jsonmapper": "^1.4",
-                "php": "^5.6|^7.0",
-                "symfony/options-resolver": "^2.6|^3.0|^4.0|^5.0"
+                "php": "^7.3|^8.0",
+                "symfony/options-resolver": "^3.4|^4.4|^5.1"
             },
             "require-dev": {
                 "beberlei/assert": "^2.7",
-                "gossi/php-code-generator": "^0.4.1",
-                "phpunit/phpunit": "^6.0|^5.0",
+                "gossi/php-code-generator": "^0.5.0",
+                "phpunit/phpunit": "^8.0|^9.0",
                 "symfony/console": "^2.6|^3.0|^4.0",
                 "symfony/process": "^2.6|^3.0|^4.0",
                 "symfony/var-dumper": "^2.6|^3.0|^4.0",
@@ -5020,22 +5020,22 @@
             "description": "REST Library for the Discord API",
             "support": {
                 "issues": "https://github.com/restcord/restcord/issues",
-                "source": "https://github.com/restcord/restcord/tree/0.4.1"
+                "source": "https://github.com/restcord/restcord/tree/0.5.0"
             },
-            "time": "2020-10-29T16:47:58+00:00"
+            "time": "2020-12-24T04:37:14+00:00"
         },
         {
             "name": "revolution/discord-manager",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "4353c68c3448e30976408ea412d1f1eea2e00c2a"
+                "reference": "88dc00361e9fdd1981f76e905264cc8151fd19e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/4353c68c3448e30976408ea412d1f1eea2e00c2a",
-                "reference": "4353c68c3448e30976408ea412d1f1eea2e00c2a",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/88dc00361e9fdd1981f76e905264cc8151fd19e7",
+                "reference": "88dc00361e9fdd1981f76e905264cc8151fd19e7",
                 "shasum": ""
             },
             "require": {
@@ -5043,7 +5043,7 @@
                 "laravel-discord/yasmin": "^1.0",
                 "laravel-notification-channels/discord": "^1.0",
                 "php": "^7.3||^8.0",
-                "restcord/restcord": "^0.4.0",
+                "restcord/restcord": "^0.5.0",
                 "team-reflex/discord-php": "^5.0"
             },
             "conflict": {
@@ -5087,9 +5087,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/2.0.0"
+                "source": "https://github.com/kawax/discord-manager/tree/2.0.1"
             },
-            "time": "2020-11-03T12:20:55+00:00"
+            "time": "2020-12-24T04:47:13+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
