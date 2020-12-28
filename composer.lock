@@ -6917,16 +6917,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v5.0.12",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/teamreflex/DiscordPHP.git",
-                "reference": "6899b77909f3bb6e6c91d74dbc88103dee712690"
+                "reference": "fdb5ac5b1def0005a9b209609261ae70f026e657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/teamreflex/DiscordPHP/zipball/6899b77909f3bb6e6c91d74dbc88103dee712690",
-                "reference": "6899b77909f3bb6e6c91d74dbc88103dee712690",
+                "url": "https://api.github.com/repos/teamreflex/DiscordPHP/zipball/fdb5ac5b1def0005a9b209609261ae70f026e657",
+                "reference": "fdb5ac5b1def0005a9b209609261ae70f026e657",
                 "shasum": ""
             },
             "require": {
@@ -6935,7 +6935,7 @@
                 "mollie/polyfill-libsodium": "^1.1",
                 "monolog/monolog": "^2.1",
                 "nesbot/carbon": "^2.38",
-                "php": "^7.2",
+                "php": "^7.2|^8.0",
                 "ratchet/pawl": "0.3.*",
                 "react/datagram": "1.5.*",
                 "react/http": "^1.1",
@@ -6944,7 +6944,9 @@
                 "trafficcophp/bytebuffer": "^0.3"
             },
             "require-dev": {
+                "davidcole1340/reactsh": "dev-master",
                 "friendsofphp/php-cs-fixer": "^2.16",
+                "phpunit/phpunit": "^9.4",
                 "symfony/var-dumper": "*"
             },
             "suggest": {
@@ -6979,9 +6981,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/teamreflex/DiscordPHP/issues",
-                "source": "https://github.com/teamreflex/DiscordPHP/tree/v5.0.12"
+                "source": "https://github.com/teamreflex/DiscordPHP/tree/v5.1.0"
             },
-            "time": "2020-11-10T22:11:15+00:00"
+            "time": "2020-12-27T08:48:30+00:00"
         },
         {
             "name": "textalk/websocket",
