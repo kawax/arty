@@ -7,7 +7,7 @@
 - 主にDiscord botを想定したartisanコマンドのみのアプリを作るためのテンプレート
 - artisanコマンドでできることは大体何でも可能なので他の用途にも使えるけどそれならLaravelかLaravel Zeroを直接使えばいい。
 - Laravel Zero https://laravel-zero.com/
-- GitLab CIなどを使ってサーバーレスでの稼働が目標
+- GitHub Actions、GitLab CIなどを使ってサーバーレスでの稼働が目標
 
 ## Create project
 
