@@ -3220,27 +3220,22 @@
         },
         {
             "name": "psr/container",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=7.2.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Psr\\Container\\": "src/"
@@ -3253,7 +3248,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common Container Interface (PHP FIG PSR-11)",
@@ -3267,9 +3262,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/master"
+                "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
-            "time": "2017-02-14T16:28:37+00:00"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3885,16 +3880,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "665260757171e2ab17485b44e7ffffa7acb6ca1f"
+                "reference": "b22b0b20278e8535e633ab71a52472c5bf620aa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/665260757171e2ab17485b44e7ffffa7acb6ca1f",
-                "reference": "665260757171e2ab17485b44e7ffffa7acb6ca1f",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/b22b0b20278e8535e633ab71a52472c5bf620aa1",
+                "reference": "b22b0b20278e8535e633ab71a52472c5bf620aa1",
                 "shasum": ""
             },
             "require": {
@@ -3949,7 +3944,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/dns/issues",
-                "source": "https://github.com/reactphp/dns/tree/v1.4.0"
+                "source": "https://github.com/reactphp/dns/tree/v1.5.0"
             },
             "funding": [
                 {
@@ -3961,7 +3956,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-18T12:12:55+00:00"
+            "time": "2021-03-05T12:16:50+00:00"
         },
         {
             "name": "react/event-loop",
@@ -4679,16 +4674,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.5",
+            "version": "v6.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7"
+                "reference": "d2791ff0b73247cdc2096b14f5580aba40c12bff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/698a6a9f54d7eb321274de3ad19863802c879fb7",
-                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d2791ff0b73247cdc2096b14f5580aba40c12bff",
+                "reference": "d2791ff0b73247cdc2096b14f5580aba40c12bff",
                 "shasum": ""
             },
             "require": {
@@ -4738,7 +4733,7 @@
             ],
             "support": {
                 "issues": "https://github.com/swiftmailer/swiftmailer/issues",
-                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.2.5"
+                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.2.6"
             },
             "funding": [
                 {
@@ -4750,7 +4745,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-12T09:35:59+00:00"
+            "time": "2021-03-05T12:08:49+00:00"
         },
         {
             "name": "symfony/console",
