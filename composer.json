@@ -13,11 +13,11 @@
     }
   ],
   "require": {
-    "php": "^7.3||^8.0",
+    "php": "^7.4||^8.0",
     "illuminate/notifications": "^8.0",
     "illuminate/view": "^8.0",
     "laravel-zero/framework": "^8.0",
-    "revolution/discord-manager": "^2.0",
+    "revolution/discord-manager": "^3.0",
     "revolution/laravel-namespaced-helpers": "^1.0"
   },
   "require-dev": {

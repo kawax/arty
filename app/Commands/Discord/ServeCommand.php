@@ -59,7 +59,9 @@ class ServeCommand extends Command
                         DiscordManager::command($message);
                     }
                 } catch (CommandNotFountException $e) {
-                    $message->reply($e->getMessage());
+                    $message->reply($e->getMessage())
+                            ->done(function (Message $message) {
+                            });
                 }
             });
         });

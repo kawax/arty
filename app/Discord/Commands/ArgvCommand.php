@@ -30,6 +30,7 @@ class ArgvCommand
             'argv! argument:**%s** option:**%s**',
             $input->getArgument('test'),
             $input->getOption('text')
-        ));
+        ))->done(function (Message $message) {
+        });
     }
 }

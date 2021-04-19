@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27b9f36f8e96ba0443e18b1c1fa65ac7",
+    "content-hash": "83e9cc69d4f9ad208541282a3b01ee11",
     "packages": [
         {
             "name": "brick/math",
@@ -61,6 +61,53 @@
                 }
             ],
             "time": "2021-01-20T22:51:39+00:00"
+        },
+        {
+            "name": "discord-php/http",
+            "version": "v8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/discord-php/DiscordPHP-Http.git",
+                "reference": "07d6e8ad0941de9035da1b2178e52b8b3acb1607"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/07d6e8ad0941de9035da1b2178e52b8b3acb1607",
+                "reference": "07d6e8ad0941de9035da1b2178e52b8b3acb1607",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "psr/log": "^1.1",
+                "react/http": "^1.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.17",
+                "monolog/monolog": "^2.2",
+                "psy/psysh": "^0.10.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Discord\\Http\\": "src/Discord"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Cole",
+                    "email": "david.cole1340@gmail.com"
+                }
+            ],
+            "description": "Handles HTTP requests to Discord servers",
+            "support": {
+                "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v8.1.0"
+            },
+            "time": "2021-03-04T23:49:19+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -3972,6 +4019,85 @@
             "time": "2021-02-02T06:47:52+00:00"
         },
         {
+            "name": "react/child-process",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/child-process.git",
+                "reference": "70486012c0265264d2afa489ff32e7cdb76000d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/child-process/zipball/70486012c0265264d2afa489ff32e7cdb76000d9",
+                "reference": "70486012c0265264d2afa489ff32e7cdb76000d9",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.0",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+                "react/stream": "^1.0 || ^0.7.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35",
+                "react/socket": "^1.0",
+                "sebastian/environment": "^5.0 || ^3.0 || ^2.0 || ^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\ChildProcess\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
+                }
+            ],
+            "description": "Event-driven library for executing child processes with ReactPHP.",
+            "keywords": [
+                "event-driven",
+                "process",
+                "reactphp"
+            ],
+            "support": {
+                "issues": "https://github.com/reactphp/child-process/issues",
+                "source": "https://github.com/reactphp/child-process/tree/v0.6.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-05T13:08:00+00:00"
+        },
+        {
             "name": "react/datagram",
             "version": "v1.5.0",
             "source": {
@@ -4652,32 +4778,29 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "2.2.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "d2dd4fc70d2b3c8a3c7d8911af33d3de6330cdb0"
+                "reference": "9e43d962f768b407731e504987e1db6780e33d22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/d2dd4fc70d2b3c8a3c7d8911af33d3de6330cdb0",
-                "reference": "d2dd4fc70d2b3c8a3c7d8911af33d3de6330cdb0",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/9e43d962f768b407731e504987e1db6780e33d22",
+                "reference": "9e43d962f768b407731e504987e1db6780e33d22",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^6.0||^7.0||^8.0",
                 "laravel-notification-channels/discord": "^1.0",
-                "php": "^7.3||^8.0",
+                "php": "^7.4||^8.0",
                 "restcord/restcord": "dev-develop",
-                "team-reflex/discord-php": "^5.0"
-            },
-            "conflict": {
-                "cakephp/core": "*"
+                "team-reflex/discord-php": "^6.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.3",
                 "orchestra/testbench": "^4.0||^5.0||^6.0",
-                "phpunit/phpunit": "^8.0||^9.0"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -4712,9 +4835,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/2.2.1"
+                "source": "https://github.com/kawax/discord-manager/tree/3.0.0"
             },
-            "time": "2021-04-07T00:56:01+00:00"
+            "time": "2021-04-19T03:13:50+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
@@ -6545,26 +6668,28 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v5.1.3",
+            "version": "v6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "83531277db436a9c054ec6f58f6c8c0e0823e156"
+                "reference": "8e91539ea81367d53f491209a2546d0587483e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/83531277db436a9c054ec6f58f6c8c0e0823e156",
-                "reference": "83531277db436a9c054ec6f58f6c8c0e0823e156",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/8e91539ea81367d53f491209a2546d0587483e04",
+                "reference": "8e91539ea81367d53f491209a2546d0587483e04",
                 "shasum": ""
             },
             "require": {
+                "discord-php/http": "^8",
                 "ext-json": "*",
                 "ext-zlib": "*",
                 "mollie/polyfill-libsodium": "^1.1",
                 "monolog/monolog": "^2.1",
                 "nesbot/carbon": "^2.38",
-                "php": "^7.2|^8.0",
+                "php": "^7.4|^8.0",
                 "ratchet/pawl": "0.3.*",
+                "react/child-process": "^0.6.2",
                 "react/datagram": "1.5.*",
                 "react/http": "^1.1",
                 "react/partial": "^3.0",
@@ -6578,10 +6703,10 @@
                 "symfony/var-dumper": "*"
             },
             "suggest": {
-                "ext-event": "For a faster, and more performant loop",
-                "ext-libev": "For a faster, and more performant loop",
+                "ext-event": "For a faster, and more performant loop.",
+                "ext-libev": "For a faster, and more performant loop.",
                 "ext-mbstring": "For accurate calculations of string length when handling non-english characters.",
-                "ext-uv": "For a faster, and more performant loop. PHP >=7 only. Preferred."
+                "ext-uv": "For a faster, and more performant loop. Preferred."
             },
             "type": "library",
             "autoload": {
@@ -6599,32 +6724,28 @@
             "authors": [
                 {
                     "name": "David Cole",
-                    "email": "david@team-reflex.com"
-                },
-                {
-                    "name": "Aaron Scherer",
-                    "email": "aequasi@gmail.com"
+                    "email": "david.cole1340@gmail.com"
                 }
             ],
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v5.1.3"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v6.0.0"
             },
-            "time": "2021-04-07T09:01:13+00:00"
+            "time": "2021-04-19T01:31:14+00:00"
         },
         {
             "name": "textalk/websocket",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textalk/websocket-php.git",
-                "reference": "b93249453806a2dd46495de46d76fcbcb0d8dee8"
+                "reference": "25f6e322bfaf978a665391efdddc135d4edd60eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/b93249453806a2dd46495de46d76fcbcb0d8dee8",
-                "reference": "b93249453806a2dd46495de46d76fcbcb0d8dee8",
+                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/25f6e322bfaf978a665391efdddc135d4edd60eb",
+                "reference": "25f6e322bfaf978a665391efdddc135d4edd60eb",
                 "shasum": ""
             },
             "require": {
@@ -6658,9 +6779,9 @@
             "description": "WebSocket client and server",
             "support": {
                 "issues": "https://github.com/Textalk/websocket-php/issues",
-                "source": "https://github.com/Textalk/websocket-php/tree/1.5.2"
+                "source": "https://github.com/Textalk/websocket-php/tree/1.5.3"
             },
-            "time": "2021-02-12T15:39:23+00:00"
+            "time": "2021-04-18T15:27:16+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -9061,7 +9182,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3||^8.0"
+        "php": "^7.4||^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"

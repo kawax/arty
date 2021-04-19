@@ -2,7 +2,7 @@ version: '3'
 
 services:
   arty:
-    image: chilio/laravel-dusk-ci:stable
+    image: chilio/laravel-dusk-ci:latest
     volumes:
       - .:/app:cached
 #      - ~/.composer/config.json:/usr/local/share/composer/config.json:cached
