@@ -4841,16 +4841,16 @@
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-namespaced-helpers.git",
-                "reference": "3f6b27639ea4b67fe6e2591ca986b7face97757e"
+                "reference": "da5728453524201fdb39823c650810eadaae466d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-namespaced-helpers/zipball/3f6b27639ea4b67fe6e2591ca986b7face97757e",
-                "reference": "3f6b27639ea4b67fe6e2591ca986b7face97757e",
+                "url": "https://api.github.com/repos/kawax/laravel-namespaced-helpers/zipball/da5728453524201fdb39823c650810eadaae466d",
+                "reference": "da5728453524201fdb39823c650810eadaae466d",
                 "shasum": ""
             },
             "require": {
@@ -4886,9 +4886,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-namespaced-helpers/issues",
-                "source": "https://github.com/kawax/laravel-namespaced-helpers/tree/1.2.0"
+                "source": "https://github.com/kawax/laravel-namespaced-helpers/tree/1.2.1"
             },
-            "time": "2021-04-14T05:17:17+00:00"
+            "time": "2021-04-29T04:50:10+00:00"
         },
         {
             "name": "ringcentral/psr7",
