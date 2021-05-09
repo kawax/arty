@@ -64,16 +64,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v8.1.0",
+            "version": "v8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "07d6e8ad0941de9035da1b2178e52b8b3acb1607"
+                "reference": "a49e28c9c37230c9ce5a1ba5ef2483142c753f72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/07d6e8ad0941de9035da1b2178e52b8b3acb1607",
-                "reference": "07d6e8ad0941de9035da1b2178e52b8b3acb1607",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/a49e28c9c37230c9ce5a1ba5ef2483142c753f72",
+                "reference": "a49e28c9c37230c9ce5a1ba5ef2483142c753f72",
                 "shasum": ""
             },
             "require": {
@@ -94,7 +94,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0-or-later"
+                "MIT"
             ],
             "authors": [
                 {
@@ -105,9 +105,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v8.1.0"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v8.1.1"
             },
-            "time": "2021-03-04T23:49:19+00:00"
+            "time": "2021-05-08T05:47:09+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -2415,16 +2415,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8"
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/19a9673b833cc37770439097b381d86cd125bfe8",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2651c497f005de305c7ba3f232cbd87b8c00ee8c",
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c",
                 "shasum": ""
             },
             "require": {
@@ -2512,7 +2512,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-01T19:00:49+00:00"
+            "time": "2021-05-08T16:08:00+00:00"
         },
         {
             "name": "league/flysystem",
