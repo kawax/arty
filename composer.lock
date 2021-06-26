@@ -1074,7 +1074,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -1130,7 +1130,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1183,16 +1183,16 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "499d15db9b58b5701aa85a4790ae1404d79009aa"
+                "reference": "6f496f435e832fc15926677f7eac7213120a302e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/499d15db9b58b5701aa85a4790ae1404d79009aa",
-                "reference": "499d15db9b58b5701aa85a4790ae1404d79009aa",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/6f496f435e832fc15926677f7eac7213120a302e",
+                "reference": "6f496f435e832fc15926677f7eac7213120a302e",
                 "shasum": ""
             },
             "require": {
@@ -1236,11 +1236,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-05-18T12:49:19+00:00"
+            "time": "2021-06-24T22:01:18+00:00"
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -1294,7 +1294,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -1342,7 +1342,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -1402,7 +1402,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1453,7 +1453,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1501,16 +1501,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "0b03c43e314fe7323ee34f8bd05d83e7284e55f7"
+                "reference": "af20e1ceefd532b35ed5b24b3b4c8b305d8fb42b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/0b03c43e314fe7323ee34f8bd05d83e7284e55f7",
-                "reference": "0b03c43e314fe7323ee34f8bd05d83e7284e55f7",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/af20e1ceefd532b35ed5b24b3b4c8b305d8fb42b",
+                "reference": "af20e1ceefd532b35ed5b24b3b4c8b305d8fb42b",
                 "shasum": ""
             },
             "require": {
@@ -1565,11 +1565,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-06-23T13:40:33+00:00"
+            "time": "2021-06-25T23:56:55+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1624,7 +1624,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1686,7 +1686,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1732,7 +1732,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -1793,7 +1793,7 @@
         },
         {
             "name": "illuminate/notifications",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
@@ -1851,7 +1851,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1899,7 +1899,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -1964,7 +1964,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -2032,7 +2032,7 @@
         },
         {
             "name": "illuminate/testing",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/testing.git",
@@ -2090,7 +2090,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v8.48.1",
+            "version": "v8.48.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -4157,16 +4157,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "bf76d1c312c0c280c4ce53119cd7d08db23ffb4c"
+                "reference": "a45784faebf8fbd59058fad2d8497f71a787d20c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/bf76d1c312c0c280c4ce53119cd7d08db23ffb4c",
-                "reference": "bf76d1c312c0c280c4ce53119cd7d08db23ffb4c",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/a45784faebf8fbd59058fad2d8497f71a787d20c",
+                "reference": "a45784faebf8fbd59058fad2d8497f71a787d20c",
                 "shasum": ""
             },
             "require": {
@@ -4221,7 +4221,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/dns/issues",
-                "source": "https://github.com/reactphp/dns/tree/v1.6.0"
+                "source": "https://github.com/reactphp/dns/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -4233,7 +4233,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-21T11:56:09+00:00"
+            "time": "2021-06-25T10:54:13+00:00"
         },
         {
             "name": "react/event-loop",
@@ -4588,22 +4588,22 @@
         },
         {
             "name": "react/socket",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "e2b96b23a13ca9b41ab343268dbce3f8ef4d524a"
+                "reference": "5d39e3fa56ea7cc443c86f2788a40867cdba1659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/e2b96b23a13ca9b41ab343268dbce3f8ef4d524a",
-                "reference": "e2b96b23a13ca9b41ab343268dbce3f8ef4d524a",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/5d39e3fa56ea7cc443c86f2788a40867cdba1659",
+                "reference": "5d39e3fa56ea7cc443c86f2788a40867cdba1659",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
                 "php": ">=5.3.0",
-                "react/dns": "^1.1",
+                "react/dns": "^1.7",
                 "react/event-loop": "^1.0 || ^0.5",
                 "react/promise": "^2.6.0 || ^1.2.1",
                 "react/promise-timer": "^1.4.0",
@@ -4656,7 +4656,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/socket/issues",
-                "source": "https://github.com/reactphp/socket/tree/v1.6.0"
+                "source": "https://github.com/reactphp/socket/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -4668,7 +4668,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-28T12:49:05+00:00"
+            "time": "2021-06-25T11:05:10+00:00"
         },
         {
             "name": "react/stream",
