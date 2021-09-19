@@ -13,7 +13,6 @@ class TestCommand
 
     /**
      * @param  Message  $message
-     *
      * @return void
      */
     public function __invoke(Message $message)
