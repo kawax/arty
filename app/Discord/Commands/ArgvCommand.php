@@ -17,7 +17,6 @@ class ArgvCommand
 
     /**
      * @param  Message  $message
-     *
      * @return void
      */
     public function __invoke(Message $message)
