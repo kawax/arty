@@ -5422,12 +5422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/restcord/restcord.git",
-                "reference": "67b53f30cb2e845e4fcd6378e6871a216f63724a"
+                "reference": "8a01bca86f38795a299c85d39d834a1196b3bf32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restcord/restcord/zipball/67b53f30cb2e845e4fcd6378e6871a216f63724a",
-                "reference": "67b53f30cb2e845e4fcd6378e6871a216f63724a",
+                "url": "https://api.github.com/repos/restcord/restcord/zipball/8a01bca86f38795a299c85d39d834a1196b3bf32",
+                "reference": "8a01bca86f38795a299c85d39d834a1196b3bf32",
                 "shasum": ""
             },
             "require": {
@@ -5469,7 +5469,7 @@
                 "issues": "https://github.com/restcord/restcord/issues",
                 "source": "https://github.com/restcord/restcord/tree/develop"
             },
-            "time": "2021-01-16T18:31:14+00:00"
+            "time": "2021-11-13T19:13:56+00:00"
         },
         {
             "name": "revolution/discord-manager",
