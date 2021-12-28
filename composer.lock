@@ -5474,12 +5474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/restcord/restcord.git",
-                "reference": "8a01bca86f38795a299c85d39d834a1196b3bf32"
+                "reference": "4c7c38e9ef5d1d69e2c31d973b386a6be0a2656a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restcord/restcord/zipball/8a01bca86f38795a299c85d39d834a1196b3bf32",
-                "reference": "8a01bca86f38795a299c85d39d834a1196b3bf32",
+                "url": "https://api.github.com/repos/restcord/restcord/zipball/4c7c38e9ef5d1d69e2c31d973b386a6be0a2656a",
+                "reference": "4c7c38e9ef5d1d69e2c31d973b386a6be0a2656a",
                 "shasum": ""
             },
             "require": {
@@ -5488,7 +5488,7 @@
                 "monolog/monolog": "^1.22|^2.0",
                 "netresearch/jsonmapper": "^1.4",
                 "php": "^7.3|^8.0",
-                "symfony/options-resolver": "^3.4|^4.4|^5.1"
+                "symfony/options-resolver": "^3.4|^4.4|^5.1|^6.0"
             },
             "require-dev": {
                 "beberlei/assert": "^2.7",
@@ -5521,7 +5521,7 @@
                 "issues": "https://github.com/restcord/restcord/issues",
                 "source": "https://github.com/restcord/restcord/tree/develop"
             },
-            "time": "2021-11-13T19:13:56+00:00"
+            "time": "2021-12-28T00:16:46+00:00"
         },
         {
             "name": "revolution/discord-manager",
