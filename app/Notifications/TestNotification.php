@@ -13,19 +13,14 @@ class TestNotification extends Notification
     use Queueable;
 
     /**
-     * @var string
-     */
-    protected $body;
-
-    /**
      * Create a new notification instance.
      *
      * @param  string  $body
      * @return void
      */
-    public function __construct($body)
+    public function __construct(protected string $body)
     {
-        $this->body = $body;
+        //
     }
 
     /**

@@ -9,7 +9,7 @@ class TestCommand
     /**
      * @var string
      */
-    public $command = 'test';
+    public string $command = 'test';
 
     /**
      * @param  Message  $message

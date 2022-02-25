@@ -13,7 +13,7 @@ class ArgvCommand
     /**
      * @var string
      */
-    public $command = 'argv {test} {--text=}';
+    public string $command = 'argv {test} {--text=}';
 
     /**
      * @param  Message  $message
