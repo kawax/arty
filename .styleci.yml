@@ -1,4 +1,4 @@
 preset: laravel
-varsion: 8
+version: 8.0
 disabled:
   - no_unused_imports
