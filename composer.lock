@@ -7785,16 +7785,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.0.8",
+            "version": "v7.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "b2843ead35c1a6d0c02bdb170cf94639cbe4f33b"
+                "reference": "78a71eed34fc4bd640a046d270270de97bc2f864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/b2843ead35c1a6d0c02bdb170cf94639cbe4f33b",
-                "reference": "b2843ead35c1a6d0c02bdb170cf94639cbe4f33b",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/78a71eed34fc4bd640a046d270270de97bc2f864",
+                "reference": "78a71eed34fc4bd640a046d270270de97bc2f864",
                 "shasum": ""
             },
             "require": {
@@ -7849,9 +7849,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.0.8"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.0.9"
             },
-            "time": "2022-03-31T03:40:09+00:00"
+            "time": "2022-04-01T09:43:29+00:00"
         },
         {
             "name": "textalk/websocket",
@@ -9183,16 +9183,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.19",
+            "version": "9.5.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "35ea4b7f3acabb26f4bb640f8c30866c401da807"
+                "reference": "12bc8879fb65aef2138b26fc633cb1e3620cffba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/35ea4b7f3acabb26f4bb640f8c30866c401da807",
-                "reference": "35ea4b7f3acabb26f4bb640f8c30866c401da807",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/12bc8879fb65aef2138b26fc633cb1e3620cffba",
+                "reference": "12bc8879fb65aef2138b26fc633cb1e3620cffba",
                 "shasum": ""
             },
             "require": {
@@ -9270,7 +9270,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.19"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.20"
             },
             "funding": [
                 {
@@ -9282,7 +9282,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-15T09:57:31+00:00"
+            "time": "2022-04-01T12:37:26+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -10308,5 +10308,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
