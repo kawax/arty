@@ -1397,16 +1397,16 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
-                "reference": "d02babe39aca0ddb2e3a0c4f1c72bc5b9fd0a08e"
+                "reference": "1cb75f98d0c375e45971dc57344b132c68e22cda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/d02babe39aca0ddb2e3a0c4f1c72bc5b9fd0a08e",
-                "reference": "d02babe39aca0ddb2e3a0c4f1c72bc5b9fd0a08e",
+                "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/1cb75f98d0c375e45971dc57344b132c68e22cda",
+                "reference": "1cb75f98d0c375e45971dc57344b132c68e22cda",
                 "shasum": ""
             },
             "require": {
@@ -1450,11 +1450,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-26T14:41:38+00:00"
+            "time": "2022-08-03T14:25:34+00:00"
         },
         {
             "name": "illuminate/bus",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1507,7 +1507,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -1567,16 +1567,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "9b862a8e7c0da5b00af75b1422d3a29080ef7adb"
+                "reference": "f9eddfa8599dd224df618b08b2502720027d1f10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/9b862a8e7c0da5b00af75b1422d3a29080ef7adb",
-                "reference": "9b862a8e7c0da5b00af75b1422d3a29080ef7adb",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/f9eddfa8599dd224df618b08b2502720027d1f10",
+                "reference": "f9eddfa8599dd224df618b08b2502720027d1f10",
                 "shasum": ""
             },
             "require": {
@@ -1618,11 +1618,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-18T13:54:30+00:00"
+            "time": "2022-08-09T13:26:41+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -1668,16 +1668,16 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
-                "reference": "d2dc74fdcc89239e1910a8d08b2b2e5ad26a043c"
+                "reference": "92baa45cede73bc2ad8a0a193f9cb3f8bde676a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/config/zipball/d2dc74fdcc89239e1910a8d08b2b2e5ad26a043c",
-                "reference": "d2dc74fdcc89239e1910a8d08b2b2e5ad26a043c",
+                "url": "https://api.github.com/repos/illuminate/config/zipball/92baa45cede73bc2ad8a0a193f9cb3f8bde676a9",
+                "reference": "92baa45cede73bc2ad8a0a193f9cb3f8bde676a9",
                 "shasum": ""
             },
             "require": {
@@ -1712,20 +1712,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-02-01T16:16:50+00:00"
+            "time": "2022-08-08T17:13:46+00:00"
         },
         {
             "name": "illuminate/console",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "763ff12efc58e0d87ff5f1345bcfbd2009d6bc2e"
+                "reference": "918d543e792af8fced85101a934b9932a0d70aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/763ff12efc58e0d87ff5f1345bcfbd2009d6bc2e",
-                "reference": "763ff12efc58e0d87ff5f1345bcfbd2009d6bc2e",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/918d543e792af8fced85101a934b9932a0d70aec",
+                "reference": "918d543e792af8fced85101a934b9932a0d70aec",
                 "shasum": ""
             },
             "require": {
@@ -1774,11 +1774,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-27T16:47:27+00:00"
+            "time": "2022-08-03T07:50:30+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1829,7 +1829,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1877,16 +1877,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "96d21d5b269681e9d03aaf9d5d082477ba1349d2"
+                "reference": "9725869e8faf236efb2362f3f969050816361eae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/96d21d5b269681e9d03aaf9d5d082477ba1349d2",
-                "reference": "96d21d5b269681e9d03aaf9d5d082477ba1349d2",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/9725869e8faf236efb2362f3f969050816361eae",
+                "reference": "9725869e8faf236efb2362f3f969050816361eae",
                 "shasum": ""
             },
             "require": {
@@ -1941,11 +1941,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-08-02T13:31:18+00:00"
+            "time": "2022-08-08T19:53:51+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -2000,7 +2000,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -2062,16 +2062,16 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
-                "reference": "25a2c6dac2b7541ecbadef952702e84ae15f5354"
+                "reference": "e3bfaf6401742a9c6abca61b9b10e998e5b6449a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/macroable/zipball/25a2c6dac2b7541ecbadef952702e84ae15f5354",
-                "reference": "25a2c6dac2b7541ecbadef952702e84ae15f5354",
+                "url": "https://api.github.com/repos/illuminate/macroable/zipball/e3bfaf6401742a9c6abca61b9b10e998e5b6449a",
+                "reference": "e3bfaf6401742a9c6abca61b9b10e998e5b6449a",
                 "shasum": ""
             },
             "require": {
@@ -2104,11 +2104,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-02-01T14:44:21+00:00"
+            "time": "2022-08-09T13:29:29+00:00"
         },
         {
             "name": "illuminate/mail",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -2170,7 +2170,7 @@
         },
         {
             "name": "illuminate/notifications",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
@@ -2228,7 +2228,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -2276,16 +2276,16 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
-                "reference": "aed994dd7ee0b5038b13e77fb7d739b0fbd2cea7"
+                "reference": "7d4f89188aab49080fab53f0e22f71d9f8dbeac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/queue/zipball/aed994dd7ee0b5038b13e77fb7d739b0fbd2cea7",
-                "reference": "aed994dd7ee0b5038b13e77fb7d739b0fbd2cea7",
+                "url": "https://api.github.com/repos/illuminate/queue/zipball/7d4f89188aab49080fab53f0e22f71d9f8dbeac2",
+                "reference": "7d4f89188aab49080fab53f0e22f71d9f8dbeac2",
                 "shasum": ""
             },
             "require": {
@@ -2337,20 +2337,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-29T20:47:33+00:00"
+            "time": "2022-08-09T13:25:36+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "cfd6d8ee1df9ce6a26a3cb205dc62446f60595e6"
+                "reference": "dc872a2a5a6ac8fe14431d7286f4ec4f70b6ac4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/cfd6d8ee1df9ce6a26a3cb205dc62446f60595e6",
-                "reference": "cfd6d8ee1df9ce6a26a3cb205dc62446f60595e6",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/dc872a2a5a6ac8fe14431d7286f4ec4f70b6ac4b",
+                "reference": "dc872a2a5a6ac8fe14431d7286f4ec4f70b6ac4b",
                 "shasum": ""
             },
             "require": {
@@ -2406,11 +2406,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-08-02T13:28:47+00:00"
+            "time": "2022-08-09T06:51:20+00:00"
         },
         {
             "name": "illuminate/testing",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/testing.git",
@@ -2468,16 +2468,16 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v9.23.0",
+            "version": "v9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "dbbdb49604b7639c9b35e73a1882f0b7a4e06b51"
+                "reference": "42ce37c2ffc45fc476aad9d6267b6ffac73ff539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/dbbdb49604b7639c9b35e73a1882f0b7a4e06b51",
-                "reference": "dbbdb49604b7639c9b35e73a1882f0b7a4e06b51",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/42ce37c2ffc45fc476aad9d6267b6ffac73ff539",
+                "reference": "42ce37c2ffc45fc476aad9d6267b6ffac73ff539",
                 "shasum": ""
             },
             "require": {
@@ -2518,7 +2518,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-11T11:45:25+00:00"
+            "time": "2022-08-08T20:01:36+00:00"
         },
         {
             "name": "jolicode/jolinotif",
@@ -7819,16 +7819,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.1.3",
+            "version": "v7.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "c0d231a1c55fd4b5dcd7e2325150fa31e6e4f5ee"
+                "reference": "b4f33afcb0322b9cc8a697c744f262e72c8a4fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/c0d231a1c55fd4b5dcd7e2325150fa31e6e4f5ee",
-                "reference": "c0d231a1c55fd4b5dcd7e2325150fa31e6e4f5ee",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/b4f33afcb0322b9cc8a697c744f262e72c8a4fa3",
+                "reference": "b4f33afcb0322b9cc8a697c744f262e72c8a4fa3",
                 "shasum": ""
             },
             "require": {
@@ -7884,9 +7884,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.1.3"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.1.4"
             },
-            "time": "2022-07-22T18:52:31+00:00"
+            "time": "2022-08-09T08:45:32+00:00"
         },
         {
             "name": "textalk/websocket",
