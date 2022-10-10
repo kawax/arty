@@ -7777,16 +7777,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.3.0",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "85b64937c97a1f10df6471fa351be1dc0e32d288"
+                "reference": "093e63d9dd2be14b3241b3210622f9c6dadc55a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/85b64937c97a1f10df6471fa351be1dc0e32d288",
-                "reference": "85b64937c97a1f10df6471fa351be1dc0e32d288",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/093e63d9dd2be14b3241b3210622f9c6dadc55a2",
+                "reference": "093e63d9dd2be14b3241b3210622f9c6dadc55a2",
                 "shasum": ""
             },
             "require": {
@@ -7842,9 +7842,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.0"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.1"
             },
-            "time": "2022-09-02T10:07:56+00:00"
+            "time": "2022-10-09T17:11:09+00:00"
         },
         {
             "name": "textalk/websocket",
