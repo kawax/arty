@@ -2814,16 +2814,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.5",
+            "version": "2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "84d74485fdb7074f4f9dd6f02ab957b1de513257"
+                "reference": "857afc47ce113454bd629037213378ba3219dd40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/84d74485fdb7074f4f9dd6f02ab957b1de513257",
-                "reference": "84d74485fdb7074f4f9dd6f02ab957b1de513257",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/857afc47ce113454bd629037213378ba3219dd40",
+                "reference": "857afc47ce113454bd629037213378ba3219dd40",
                 "shasum": ""
             },
             "require": {
@@ -2843,7 +2843,7 @@
                 "erusev/parsedown": "^1.0",
                 "ext-json": "*",
                 "github/gfm": "0.29.0",
-                "michelf/php-markdown": "^1.4",
+                "michelf/php-markdown": "^1.4 || ^2.0",
                 "nyholm/psr7": "^1.5",
                 "phpstan/phpstan": "^1.8.2",
                 "phpunit/phpunit": "^9.5.21",
@@ -2916,7 +2916,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-29T10:59:45+00:00"
+            "time": "2022-10-30T16:45:38+00:00"
         },
         {
             "name": "league/config",
@@ -7777,16 +7777,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.3.1",
+            "version": "v7.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "093e63d9dd2be14b3241b3210622f9c6dadc55a2"
+                "reference": "2a3d245b62daf39d64ac864d7d328a4a83a76aef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/093e63d9dd2be14b3241b3210622f9c6dadc55a2",
-                "reference": "093e63d9dd2be14b3241b3210622f9c6dadc55a2",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/2a3d245b62daf39d64ac864d7d328a4a83a76aef",
+                "reference": "2a3d245b62daf39d64ac864d7d328a4a83a76aef",
                 "shasum": ""
             },
             "require": {
@@ -7842,9 +7842,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.1"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.2"
             },
-            "time": "2022-10-09T17:11:09+00:00"
+            "time": "2022-10-30T12:46:24+00:00"
         },
         {
             "name": "textalk/websocket",
