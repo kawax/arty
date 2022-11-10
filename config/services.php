@@ -33,6 +33,7 @@ return [
                 Event::TYPING_START,
             ],
             'intents'        => array_sum(Intents::default()),
+            'loop'           => \React\EventLoop\Loop::get(),
         ],
     ],
 ];

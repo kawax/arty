@@ -3298,16 +3298,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.62.1",
+            "version": "2.63.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a"
+                "reference": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
-                "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
+                "reference": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
                 "shasum": ""
             },
             "require": {
@@ -3396,7 +3396,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-02T07:48:13+00:00"
+            "time": "2022-10-30T18:34:28+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -4038,21 +4038,20 @@
         },
         {
             "name": "phrity/net-uri",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sirn-se/phrity-net-uri.git",
-                "reference": "16f9e6266e67744189b1bed1f0294c85f791d32c"
+                "reference": "00ddfb9622de67e72b495af50cc5d463ad58531c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sirn-se/phrity-net-uri/zipball/16f9e6266e67744189b1bed1f0294c85f791d32c",
-                "reference": "16f9e6266e67744189b1bed1f0294c85f791d32c",
+                "url": "https://api.github.com/repos/sirn-se/phrity-net-uri/zipball/00ddfb9622de67e72b495af50cc5d463ad58531c",
+                "reference": "00ddfb9622de67e72b495af50cc5d463ad58531c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4|^8.0",
-                "phrity/util-errorhandler": "^1.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0"
             },
@@ -4078,7 +4077,8 @@
                     "homepage": "https://phrity.sirn.se"
                 }
             ],
-            "homepage": "https://phrity.sirn.se/",
+            "description": "PSR-7 Uri and PSR-17 UriFactory implementation",
+            "homepage": "https://phrity.sirn.se/net-uri",
             "keywords": [
                 "psr-17",
                 "psr-7",
@@ -4087,9 +4087,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sirn-se/phrity-net-uri/issues",
-                "source": "https://github.com/sirn-se/phrity-net-uri/tree/1.0.0"
+                "source": "https://github.com/sirn-se/phrity-net-uri/tree/1.1.0"
             },
-            "time": "2022-10-25T17:38:42+00:00"
+            "time": "2022-11-09T16:02:01+00:00"
         },
         {
             "name": "phrity/util-errorhandler",
@@ -7881,16 +7881,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.3.2",
+            "version": "v7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "2a3d245b62daf39d64ac864d7d328a4a83a76aef"
+                "reference": "6d76ad8fbf320e97304f6d04cc9f5894e2fed023"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/2a3d245b62daf39d64ac864d7d328a4a83a76aef",
-                "reference": "2a3d245b62daf39d64ac864d7d328a4a83a76aef",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/6d76ad8fbf320e97304f6d04cc9f5894e2fed023",
+                "reference": "6d76ad8fbf320e97304f6d04cc9f5894e2fed023",
                 "shasum": ""
             },
             "require": {
@@ -7946,9 +7946,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.2"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.3"
             },
-            "time": "2022-10-30T12:46:24+00:00"
+            "time": "2022-11-09T05:10:57+00:00"
         },
         {
             "name": "textalk/websocket",
