@@ -2,7 +2,8 @@
 
 namespace Tests\Feature;
 
-use Revolution\DiscordManager\Facades\DiscordPHP;
+use Discord\Discord;
+use Mockery\MockInterface;
 use Tests\TestCase;
 
 class ServeCommandTest extends TestCase
@@ -14,8 +15,10 @@ class ServeCommandTest extends TestCase
      */
     public function testDiscordTestCommand()
     {
-        DiscordPHP::shouldReceive('on')->times(2);
-        DiscordPHP::shouldReceive('run');
+        $this->mock(Discord::class, function (MockInterface $mock) {
+            $mock->shouldReceive('on')->times(2);
+            $mock->shouldReceive('run');
+        });
 
         $this->artisan('discord:serve')
              ->assertExitCode(0);
