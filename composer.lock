@@ -5805,16 +5805,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "982fb3408b70e5b19754ee1f2b4f096a2ae2dc72"
+                "reference": "556ca1b787aea93de9015323d39f617b70ff8cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/982fb3408b70e5b19754ee1f2b4f096a2ae2dc72",
-                "reference": "982fb3408b70e5b19754ee1f2b4f096a2ae2dc72",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/556ca1b787aea93de9015323d39f617b70ff8cc9",
+                "reference": "556ca1b787aea93de9015323d39f617b70ff8cc9",
                 "shasum": ""
             },
             "require": {
@@ -5868,9 +5868,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/4.1.2"
+                "source": "https://github.com/kawax/discord-manager/tree/4.1.3"
             },
-            "time": "2022-12-08T03:44:02+00:00"
+            "time": "2022-12-09T01:19:36+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
