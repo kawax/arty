@@ -2814,16 +2814,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.7",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "a36bd2be4f5387c0f3a8792a0d76b7d68865abbf"
+                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/a36bd2be4f5387c0f3a8792a0d76b7d68865abbf",
-                "reference": "a36bd2be4f5387c0f3a8792a0d76b7d68865abbf",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c493585c130544c4e91d2e0e131e6d35cb0cbc47",
+                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47",
                 "shasum": ""
             },
             "require": {
@@ -2851,7 +2851,7 @@
                 "symfony/finder": "^5.3 | ^6.0",
                 "symfony/yaml": "^2.3 | ^3.0 | ^4.0 | ^5.0 | ^6.0",
                 "unleashedtech/php-coding-standard": "^3.1.1",
-                "vimeo/psalm": "^4.24.0"
+                "vimeo/psalm": "^4.24.0 || ^5.0.0"
             },
             "suggest": {
                 "symfony/yaml": "v2.3+ required if using the Front Matter extension"
@@ -2916,7 +2916,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-03T17:29:46+00:00"
+            "time": "2022-12-10T16:02:17+00:00"
         },
         {
             "name": "league/config",
@@ -5805,16 +5805,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "4.1.3",
+            "version": "4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "556ca1b787aea93de9015323d39f617b70ff8cc9"
+                "reference": "925bfb1864e2aad1a67fe45d355a8d35b0222f65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/556ca1b787aea93de9015323d39f617b70ff8cc9",
-                "reference": "556ca1b787aea93de9015323d39f617b70ff8cc9",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/925bfb1864e2aad1a67fe45d355a8d35b0222f65",
+                "reference": "925bfb1864e2aad1a67fe45d355a8d35b0222f65",
                 "shasum": ""
             },
             "require": {
@@ -5868,9 +5868,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/4.1.3"
+                "source": "https://github.com/kawax/discord-manager/tree/4.1.4"
             },
-            "time": "2022-12-09T01:19:36+00:00"
+            "time": "2022-12-11T03:16:30+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
