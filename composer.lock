@@ -5819,21 +5819,21 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "4.1.4",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "925bfb1864e2aad1a67fe45d355a8d35b0222f65"
+                "reference": "9b580785eb9a3dde7e3590c3bb088ee8d51743e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/925bfb1864e2aad1a67fe45d355a8d35b0222f65",
-                "reference": "925bfb1864e2aad1a67fe45d355a8d35b0222f65",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/9b580785eb9a3dde7e3590c3bb088ee8d51743e4",
+                "reference": "9b580785eb9a3dde7e3590c3bb088ee8d51743e4",
                 "shasum": ""
             },
             "require": {
                 "discord/interactions": "^2.2",
-                "illuminate/support": "^9.0",
+                "illuminate/support": "^9.0||^10.0",
                 "php": "^8.0",
                 "restcord/restcord": "dev-develop",
                 "simplito/elliptic-php": "^1.0",
@@ -5842,7 +5842,7 @@
             "require-dev": {
                 "laravel-notification-channels/discord": "^1.3",
                 "mockery/mockery": "^1.3",
-                "orchestra/testbench": "^7.0",
+                "orchestra/testbench": "^7.0||^8.0",
                 "phpunit/phpunit": "^9.5"
             },
             "suggest": {
@@ -5882,9 +5882,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/4.1.4"
+                "source": "https://github.com/kawax/discord-manager/tree/4.2.0"
             },
-            "time": "2022-12-11T03:16:30+00:00"
+            "time": "2023-01-28T02:40:07+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
@@ -8836,16 +8836,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.23",
+            "version": "9.2.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "9f1f0f9a2fbb680b26d1cf9b61b6eac43a6e4e9c"
+                "reference": "2cf940ebc6355a9d430462811b5aaa308b174bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/9f1f0f9a2fbb680b26d1cf9b61b6eac43a6e4e9c",
-                "reference": "9f1f0f9a2fbb680b26d1cf9b61b6eac43a6e4e9c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/2cf940ebc6355a9d430462811b5aaa308b174bed",
+                "reference": "2cf940ebc6355a9d430462811b5aaa308b174bed",
                 "shasum": ""
             },
             "require": {
@@ -8901,7 +8901,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.23"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.24"
             },
             "funding": [
                 {
@@ -8909,7 +8909,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-28T12:41:10+00:00"
+            "time": "2023-01-26T08:26:55+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
