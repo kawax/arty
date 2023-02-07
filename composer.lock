@@ -2610,16 +2610,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v9.47.0",
+            "version": "v9.50.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "339a4fc273b3520dcccda9b4cc835567141beb26"
+                "reference": "da0168916babad0348d1ab17bed14fd41e5b32a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/339a4fc273b3520dcccda9b4cc835567141beb26",
-                "reference": "339a4fc273b3520dcccda9b4cc835567141beb26",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/da0168916babad0348d1ab17bed14fd41e5b32a8",
+                "reference": "da0168916babad0348d1ab17bed14fd41e5b32a8",
                 "shasum": ""
             },
             "require": {
@@ -2649,9 +2649,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel-zero/foundation/tree/v9.47.0"
+                "source": "https://github.com/laravel-zero/foundation/tree/v9.50.2"
             },
-            "time": "2023-01-11T09:17:28+00:00"
+            "time": "2023-02-06T13:25:57+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -3197,16 +3197,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb"
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb",
-                "reference": "e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
                 "shasum": ""
             },
             "require": {
@@ -3283,7 +3283,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.9.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.1"
             },
             "funding": [
                 {
@@ -3295,7 +3295,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-05T13:07:32+00:00"
+            "time": "2023-02-06T13:44:46+00:00"
         },
         {
             "name": "nesbot/carbon",
