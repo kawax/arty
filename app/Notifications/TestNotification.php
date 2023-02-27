@@ -25,16 +25,13 @@ class TestNotification extends Notification
 
     /**
      * Get the notification's delivery channels.
-     *
-     * @param  mixed  $notifiable
-     * @return array
      */
-    public function via($notifiable)
+    public function via(mixed $notifiable): array
     {
         return [DiscordChannel::class];
     }
 
-    public function toDiscord($notifiable)
+    public function toDiscord(mixed $notifiable): DiscordMessage
     {
         return DiscordMessage::create($this->body);
     }

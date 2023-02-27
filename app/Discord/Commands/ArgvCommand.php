@@ -10,16 +10,9 @@ class ArgvCommand
 {
     use Input;
 
-    /**
-     * @var string
-     */
     public string $command = 'argv {test} {--text=}';
 
-    /**
-     * @param  Message  $message
-     * @return void
-     */
-    public function __invoke(Message $message)
+    public function __invoke(Message $message): void
     {
         $argv = explode(' ', Str::after($message->content, config('services.discord.prefix')));
 
