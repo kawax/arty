@@ -2474,16 +2474,16 @@
         },
         {
             "name": "laravel-notification-channels/discord",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-notification-channels/discord.git",
-                "reference": "a4ef4fc20e8adafce0b3416a3bf7abb9d5d03b95"
+                "reference": "11ab1bf59a36080cd8833a0d1f335cb50be7c9b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-notification-channels/discord/zipball/a4ef4fc20e8adafce0b3416a3bf7abb9d5d03b95",
-                "reference": "a4ef4fc20e8adafce0b3416a3bf7abb9d5d03b95",
+                "url": "https://api.github.com/repos/laravel-notification-channels/discord/zipball/11ab1bf59a36080cd8833a0d1f335cb50be7c9b6",
+                "reference": "11ab1bf59a36080cd8833a0d1f335cb50be7c9b6",
                 "shasum": ""
             },
             "require": {
@@ -2536,9 +2536,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-notification-channels/discord/issues",
-                "source": "https://github.com/laravel-notification-channels/discord/tree/v1.5.0"
+                "source": "https://github.com/laravel-notification-channels/discord/tree/v1.5.1"
             },
-            "time": "2023-05-01T00:05:15+00:00"
+            "time": "2024-01-13T22:27:06+00:00"
         },
         {
             "name": "laravel-zero/foundation",
@@ -7779,16 +7779,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.3.4",
+            "version": "v7.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "82843da4346878a432171f8d82e345389f7cc49b"
+                "reference": "798cad7aa075a5bdbda430bb60965664240813c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/82843da4346878a432171f8d82e345389f7cc49b",
-                "reference": "82843da4346878a432171f8d82e345389f7cc49b",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/798cad7aa075a5bdbda430bb60965664240813c7",
+                "reference": "798cad7aa075a5bdbda430bb60965664240813c7",
                 "shasum": ""
             },
             "require": {
@@ -7843,10 +7843,13 @@
             ],
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
+                "chat": "https://discord.gg/dphp",
+                "docs": "https://discord-php.github.io/DiscordPHP/",
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.4"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.5",
+                "wiki": "https://github.com/discord-php/DiscordPHP/wiki"
             },
-            "time": "2023-01-13T12:37:14+00:00"
+            "time": "2024-01-13T22:43:23+00:00"
         },
         {
             "name": "textalk/websocket",
@@ -8903,16 +8906,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.5",
+            "version": "10.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ed21115d505b4b4f7dc7b5651464e19a2c7f7856"
+                "reference": "ab9a20b623b235165d24faa9d1da925cb54939c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ed21115d505b4b4f7dc7b5651464e19a2c7f7856",
-                "reference": "ed21115d505b4b4f7dc7b5651464e19a2c7f7856",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ab9a20b623b235165d24faa9d1da925cb54939c0",
+                "reference": "ab9a20b623b235165d24faa9d1da925cb54939c0",
                 "shasum": ""
             },
             "require": {
@@ -8984,7 +8987,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.5"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.6"
             },
             "funding": [
                 {
@@ -9000,7 +9003,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-27T15:13:52+00:00"
+            "time": "2024-01-13T12:49:56+00:00"
         },
         {
             "name": "sebastian/cli-parser",
