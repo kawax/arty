@@ -4,6 +4,10 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac2d9a1669653b4f24ae/maintainability)](https://codeclimate.com/github/kawax/arty/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac2d9a1669653b4f24ae/test_coverage)](https://codeclimate.com/github/kawax/arty/test_coverage)
 
+## 終了（2024-03）
+`discord-manager`v5で稼働し続けるbot機能を終了したのと、Laravel11で「consoleのみ」のアプリも構成しやすくなったのでここは終了。
+
+## 概要
 - 主にDiscord botを想定したartisanコマンドのみのアプリを作るためのテンプレート
 - artisanコマンドでできることは大体何でも可能なので他の用途にも使えるけどそれならLaravelかLaravel Zeroを直接使えばいい。
 - Laravel Zero https://laravel-zero.com/
