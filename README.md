@@ -6,6 +6,7 @@
 
 ## 終了（2024-03）
 `discord-manager`v5で稼働し続けるbot機能を終了したのと、Laravel11で「consoleのみ」のアプリも構成しやすくなったのでここは終了。
+https://invokable.net/article/laravel11-console-only
 
 ## 概要
 - 主にDiscord botを想定したartisanコマンドのみのアプリを作るためのテンプレート
